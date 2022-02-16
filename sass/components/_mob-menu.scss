@@ -1,0 +1,145 @@
+.mob-menu {
+    background-color: $main-title-color;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    z-index: 5;
+    min-width: 320px;
+    min-height: 100%;
+    transition: transform 250ms ease-in-out;
+}
+
+.is-hidden .mob-menu-container {
+  transform: translateY(-100%);
+}
+
+  .mob-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding: 48px 40px;
+
+    transform: translateY(0);
+    transition-property: transform;
+    transition-duration: $duration;
+    transition-timing-function: $function;
+  }
+
+  .mob-menu__list {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    li {
+      margin-bottom: 32px;
+    }
+
+    @media screen and (min-width: 480px) {
+      font-size: 40px;
+      line-height: 1.175;
+    }
+
+  }
+  .mob-menu__link {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: $second-title-color;
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
+  }
+
+  .current-mob {
+    color: $accent-color;
+  }
+
+  .mob-menu__close-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    min-height: 40px;
+    min-width: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 0;
+    &:focus,
+    &:hover {
+      color: $accent-color;
+    }
+  }
+  .mob-menu-contacts {
+    margin-bottom: auto;
+  }
+
+  .mob-menu-contacts__tel {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: $accent-color;
+
+    @media screen and (min-width: 480px) {
+      font-size: 34px;
+    }
+  }
+
+  .mob-menu-contacts__item {
+    margin-bottom: 32px;
+    &:last-child {
+      margin-bottom: 64px;
+    }
+  }
+
+  .mob-menu-contacts__mail {
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-color);
+
+    @media screen and (min-width: 480px) {
+      font-size: 19px;
+      line-height: 1.2;
+      font-size: 24px;
+      line-height: 1.67;
+    }
+
+  }
+  .mob-menu-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+  
+    li {
+      padding-right: 10px;
+      border-right: 1px solid rgba(33, 33, 33, 0.2);
+      &:last-child {
+        border-right: 0;
+        padding-right: 0;
+      }
+      &:not(:first-child) {
+        margin-left: 10px;
+      }
+    }
+
+    @media screen and (min-width: 480px) {
+      padding-bottom: 0;
+    }
+
+    .mob-menu-social__link {
+      text-decoration: none;
+      color: $accent-color;
+    }
+  }

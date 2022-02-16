@@ -1,0 +1,19 @@
+// .form__subscribe {
+//     margin-right: auto;
+//   }
+
+.form__label:last-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.form__agreement {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #757575;
+}

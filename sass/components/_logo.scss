@@ -1,0 +1,39 @@
+.logo--header {
+    padding: 16px 0;
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000;
+
+    @media screen and (min-width: 1200px) {
+      padding: 24px 0 25px 0;
+    }
+  }
+
+.logo--footer {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    // text-align: left;
+    text-decoration: none;
+    // display: block;
+    margin-bottom: 20px;
+  }
+
+  .logo--accent {
+    font-family: Source Sans Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: rgba(229, 222, 194, 1);
+    text-shadow: 1px solid rgba(229, 222, 194, 1);
+  }
