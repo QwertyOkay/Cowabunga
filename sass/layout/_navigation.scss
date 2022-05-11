@@ -19,6 +19,7 @@
   .navigation__list {
     display: flex;
     list-style: none;
+    font-family: 'Source Sans Pro';
     padding: 0;
     margin: 0;
     background-color: #12403C;
@@ -32,6 +33,7 @@
     display: block;
     text-decoration: none;
     color: $second-title-color;
+    font-family: 'Source Sans Pro';
     padding: 32px 0;
     transition-property: color;
     transition-duration: var(--duration);

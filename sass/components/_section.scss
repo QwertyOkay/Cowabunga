@@ -2,9 +2,14 @@
   padding: 60px 0;
   @media screen and (min-width: 1200px) {
     padding: 94px 0;
+    padding-bottom: 0px;
   }
 
   &.hero {
     padding: 0;
   }
+
+    &.feature {
+      padding-top: 0px;
+    }
 }
