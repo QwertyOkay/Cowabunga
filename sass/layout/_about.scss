@@ -40,6 +40,13 @@
       letter-spacing: 0.03em;
       color: #000000;
   }
+
+
+    .about__list2 {
+      display: flex;
+      list-style: none;
+        justify-content: center;
+    }
   
   .about__text {
     position: absolute;
