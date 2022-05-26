@@ -567,7 +567,7 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--main-title-color);
-  background-color: black;
+  background-color: #aaa79c;
   transition-property: background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
@@ -582,6 +582,38 @@ body {
 }
 
 .button__hero:hover {
+  color: black;
+  background-color: #e5dec2;
+  font-weight: bold;
+}
+
+.button__hero2 {
+  font-style: normal;
+  border: none;
+  cursor: pointer;
+  border-radius: 88px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--main-title-color);
+  background-color: black;
+  transition-property: background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+  width: 343px;
+  height: 52px;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+.button__hero2:hover {
   color: black;
   background-color: #e5dec2;
   font-weight: bold;
@@ -1651,10 +1683,10 @@ body {
 .hero2 {
   display: flex;
   align-items: center;
-  background: #2f303a;
+  background: white;
   height: 400px;
   margin: 0 auto;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero2-bg-mob-1x.jpg);
+  background-image: url(../images/hero2-bg-mob-1x.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 118px 0;
@@ -1663,7 +1695,7 @@ body {
 
 @media (min-resolution: 2dppx) {
   .hero2 {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero2-bg-mob-2x.jpg);
+    background-image: url(../images/hero2-bg-mob-2x.jpg);
   }
 }
 
@@ -2078,7 +2110,7 @@ body {
 }
 
 .footer {
-  background: var(--main-site-section);
+  background: #12403c;
   padding: 60px 0;
 }
 

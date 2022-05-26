@@ -63,7 +63,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
     justify-content: center;
     // letter-spacing: 0.06em;
     color: var(--main-title-color);
-    background-color: black;
+    background-color: #aaa79c;
     transition-property: background-color;
     transition-duration: var(--duration);
     transition-timing-function: var(--function);
@@ -84,6 +84,44 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px
       font-weight: bold;
     }
   }
+
+     .button__hero2 {
+       // font-family: 'Rounded Mplus 1c';
+       font-style: normal;
+       border: none;
+       cursor: pointer;
+       border-radius: 88px;
+       // font-family: inherit;
+       font-weight: bold;
+       font-size: 16px;
+       line-height: 1.9;
+       display: flex;
+       align-items: center;
+       // text-align: center;
+       justify-content: center;
+       // letter-spacing: 0.06em;
+       color: var(--main-title-color);
+       background-color: black;
+       transition-property: background-color;
+       transition-duration: var(--duration);
+       transition-timing-function: var(--function);
+  
+       width: 343px;
+       height: 52px;
+       margin-top: 30px;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 24px;
+       letter-spacing: 0.02em;
+  
+       color: #FFFFFF;
+  
+       &:hover {
+         color: black;
+         background-color: $accent-color;
+         font-weight: bold;
+       }
+     }
 
   .button__hero:focus {
     color: $main-title-color;
