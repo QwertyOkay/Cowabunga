@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cowabunga</title>
+    <title>Cowabunga TATTOO</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,7 +19,7 @@
 
 <body>
     <div style="background-color: #000;">
-        <div class="footer__thumb--social" style="    display: flex;
+        <div class="footer__thumb--social" style=" display: flex;
         padding: 5px;
         justify-content: space-around;
         align-items: center;">
@@ -76,8 +76,8 @@
     
                 <ul class="navigation__list">
                     <li><a class="navigation__link navigation__link--current" href="./index.html" >Студия</a></li>
-                    <li><a class="navigation__link" href ="./portfolio.html" >Портфолио</a></li>
-                    <li><a class="navigation__link" href ="">Контакты</a></li>
+                    <!-- <li><a class="navigation__link" href ="./portfolio.html" >Портфолио</a></li> -->
+                    <li><a class="navigation__link" href ="#contacts">Контакты</a></li>
                 </ul>
         </nav>
 
@@ -109,23 +109,18 @@
         </section>
 
         <section class="section section--no-padding-top">
-            <div class="container">
-                <h2 class="heading__about">О нас</h2>
-                <ul class="about__list">
-                    <li class="about__item">
-                        <img srcset="./images/box1-note-1x.jpg 1x, ./images/box1-note-2x.jpg 2x" src="./images/box1-note-1x.jpg"
-                            alt="набирает код" width="510" height="360px">
-                        <!-- <p class="about__text">Десктопные приложения</p> -->
-                    </li>
-                    <li class="about__item">
-                        <p class="about__item-text"> Осознанный подход<br>
-                         Творю с любовью<br>
-                         Создаю уникальные эскизы<br>
-                         Картины на заказ<br>
-                         Опыт работы в тату индустрии 7 лет<br>
-                         +380930305383<br>
-                        +380954218439<br> 
-                    </li>
+            <h2 class="heading__about">О нас</h2>
+            <div class="container about__container">
+                <img srcset="./images/box1-note-1x.jpg 1x, ./images/box1-note-2x.jpg 2x" src="./images/box1-note-1x.jpg"
+                            alt="Timoshenko_Roman" width="510" height="360px">
+                <ul class="about__list about__desc" >
+                    <li class="about__item">Осознанный подход</li>
+                    <li class="about__item">Творю с любовью</li>
+                    <li class="about__item">Создаю уникальные эскизы</li>
+                    <li class="about__item">Картины на заказ</li>
+                    <li class="about__item">Опыт работы в тату индустрии 7 лет</li>
+                    <li class="about__item"><a href="tel:+380930305383">+380930305383</li></a>
+                    <li class="about__item"><a href="tel:+380954218439">+380954218439</li></a>
                 </ul>
             </div>
         </section>
@@ -277,7 +272,7 @@
 
 <section class="section hero2">
     <div class="container">
-        <!-- <h2 class="heading__about" id="contacts"></h2> -->
+        <h2 class="heading__about" id="contacts"></h2>
         <ul class="about__list">
 
             <iframe 
@@ -316,7 +311,7 @@
                 <ul class="lists">                   
                     <li class="footer__item">
                     <a class="footer__link" href="mailto:info@devstudio.com"
-                    >cowabunga@gmail.com.com</a></li>
+                    >cowabunga@gmail.com</a></li>
                     <li class="footer__item">
                     <a class="footer__link" href="tel:+380930305383"
                     >+38 093 030 53 83</a></li>
@@ -328,30 +323,34 @@
             <p class="footer__text">присоединяйтесь</p>
             <ul class="lists social__list">
                 <li class="social__item">
-                    <a href="" class="social__link social__link--footer">
+                    <a href="https://www.instagram.com/cowabunga_tattoo/" target="_blank"
+                    class="social__link social__link--footer">
                         <svg class="icon__social">
                             <use href="./images/icons.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social__item">
-                    <a href="" class="social__link social__link--footer">
+                    <a href="https://t.me/Timoshenko_Roman" target="_blank"
+                    class="social__link social__link--footer">
                         <svg class="icon__social">
-                            <use href="./images/icons.svg#icon-twitter"></use>
+                            <use href="./images/icons.svg#icon-telegram"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social__item">
-                    <a href="" class="social__link social__link--footer">
+                    <a href="https://www.facebook.com/timasroman/photos/" target="_blank"
+                    class="social__link social__link--footer">
                         <svg class="icon__social">
                             <use href="./images/icons.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
                 <li class="social__item">
-                    <a href="" class="social__link social__link--footer">
+                    <a href="viber://add?number=380930305383" target="_blank"
+                    class="social__link social__link--footer">
                         <svg class="icon__social">
-                            <use href="./images/icons.svg#icon-linkedin"></use>
+                            <use href="./images/icons.svg#icon-viber"></use>
                         </svg>
                     </a>
                 </li>
@@ -359,7 +358,7 @@
         </div> 
         </div>
 
-        <div class="subscribe">
+        <!-- <div class="subscribe">
             <form class="form__subscribe" name="subscribe-form" autocomplete="on" >
                   <p class="footer__text">подпишитесь на рассылку</p>
                   <div class="subscribe__row">
@@ -377,7 +376,7 @@
                     </button>
                   </div>
                 </form>
-        </div>
+        </div> -->
     </div>
 </footer>
 
@@ -407,18 +406,13 @@
                 >
               </li>
             </ul>
+
             <ul class="mob-menu-social lists">
               <li class="mob-menu-social__item">
                 <a href="https://www.instagram.com/" class="mob-menu-social__link">Instagram</a>
               </li>
               <li class="mob-menu-social__item">
-                <a href="https://twitter.com/" class="mob-menu-social__link">Twitter</a>
-              </li>
-              <li class="mob-menu-social__item">
                 <a href="https://www.facebook.com/" class="mob-menu-social__link">Facebook</a>
-              </li>
-              <li class="mob-menu-social__item">
-                <a href="https://www.linkedin.com/" class="mob-menu-social__link">linkedin</a>
               </li>
             </ul>
     </div>
@@ -434,7 +428,7 @@
     </button>
 
     
-    <form method="POST" action="telegram.php"  
+    <!-- <form method="POST" action="telegram.php"  
           class="modal__form" name="modal__form" autocomplete="on">
         <p class="modal__heading">Оставьте свои данные, мы вам перезвоним</p>
         
@@ -480,7 +474,7 @@
                     </span>
                 </label>
             <button type="submit" class="modal-button__btn">Отправить</button>
-    </form>
+    </form> -->
     </div>
 </div>
 

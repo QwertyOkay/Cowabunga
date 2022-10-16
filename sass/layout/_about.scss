@@ -72,4 +72,20 @@
   .about__item:last-child {
     margin-right: 0;
   }
+
+
+  .about__desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: inherit;
+    justify-content: center;
+    line-height: 3;
+    height: 100%;
+  }
   
+  .about__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
