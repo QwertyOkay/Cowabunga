@@ -35,6 +35,7 @@ Sections
 body {
   margin: 0; /* 1 */
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"; /* 2 */
+  background-color: whitesmoke !important;
 }
 
 a {
@@ -1831,6 +1832,11 @@ body {
     text-align: left;
   }
 }
+@media screen and (min-width: 768px) {
+  .feature__subtitle {
+    text-align: center;
+  }
+}
 
 .text__feature {
   font-weight: normal;
@@ -1879,7 +1885,6 @@ body {
 
 .section--no-padding-top {
   display: none;
-  background-color: white;
 }
 @media screen and (min-width: 1200px) {
   .section--no-padding-top {
