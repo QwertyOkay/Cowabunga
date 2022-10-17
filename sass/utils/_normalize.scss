@@ -46,6 +46,11 @@ body {
     background-color: whitesmoke!important;
 }
 
+::-webkit-scrollbar
+{
+  display: none;
+}
+
 a {
   color: #000;
 }

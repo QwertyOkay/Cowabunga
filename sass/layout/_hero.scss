@@ -75,14 +75,15 @@ font-size: 36px;
       background: white;
       height: 400px;
       margin: 0 auto;
-      background-image: url(../images/hero2-bg-mob-1x.jpg);
+      background-image: url(../images/hero2-bg-note-1x.jpg);
+      background-color: rgba(5, 82, 75, 0.2);
   
       background-repeat: no-repeat;
       background-size: cover;
       padding: 118px 0;
   
       @media (min-resolution: 2dppx) {
-        background-image: url(../images/hero2-bg-mob-2x.jpg);
+        background-image: url(../images/hero2-bg-note-1x.jpg);
       }
   
       @media screen and (min-width: 768px) {
@@ -104,7 +105,7 @@ font-size: 36px;
         background-image: 
           url(../images/hero2-bg-note-1x.jpg);
         // padding-top: 200px;
-        background-color: rgba(5, 82, 75, 0.2);;
+        background-color: rgba(5, 82, 75, 0.2);
         // padding-bottom: 280px;
       }
             background-position: center;
