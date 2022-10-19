@@ -394,6 +394,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 0px;
   }
 }
 
@@ -449,7 +450,6 @@ a:hover {
 }
 
 .logo--header {
-  padding: 16px 0;
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
@@ -457,11 +457,6 @@ a:hover {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #000;
-}
-@media screen and (min-width: 1200px) {
-  .logo--header {
-    padding: 24px 0 25px 0;
-  }
 }
 
 .logo--footer {
@@ -1455,6 +1450,7 @@ a:hover {
 
 .img-wrapper {
   position: relative;
+  margin-top: 15px;
 }
 .img-wrapper img {
   width: 100%;
@@ -1473,7 +1469,7 @@ a:hover {
   opacity: 0;
 }
 .img-overlay i {
-  color: #fff;
+  color: #e5dec2;
   font-size: 3em;
 }
 
@@ -1560,6 +1556,10 @@ a:hover {
   background-color: #000;
 }
 
+.fa {
+  color: #e5dec2 !important;
+}
+
 .header {
   width: 100%;
   display: block;
@@ -1620,7 +1620,7 @@ a:hover {
   text-decoration: none;
   color: white;
   font-family: Nunito, sans-serif;
-  padding: 32px 0;
+  padding: 36px 0;
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
@@ -2213,6 +2213,10 @@ a:hover {
   .footer__address {
     margin-bottom: 5px;
   }
+}
+
+.footer__address:hover {
+  color: #e5dec2;
 }
 
 .footer__link {

@@ -73,6 +73,10 @@
     list-style: none;
   }
 
+.footer__address:hover {
+  color: #e5dec2;
+}
+
   .footer__link {
     display: block;
     font-style: normal;
@@ -92,7 +96,7 @@
   
     &:hover,
     &:focus {
-      color: $accent-color;
+      color: #e5dec2;
   }
   }
 

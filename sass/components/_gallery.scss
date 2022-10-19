@@ -6,7 +6,7 @@
   
   .img-wrapper {
     position: relative;
-    // margin-top: 15px;
+    margin-top: 15px;
     img {
       width: 100%;
     }
@@ -23,7 +23,7 @@
     align-items: center;
     opacity: 0;
     i {
-      color: #fff;
+      color: #e5dec2;
       font-size: 3em;
     }
   }
@@ -107,4 +107,8 @@
 
 .gallery__black {
     background-color: #000;
+}
+
+.fa {
+  color: #e5dec2!important;
 }
