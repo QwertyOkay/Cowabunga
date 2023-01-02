@@ -1617,12 +1617,12 @@ body {
 }
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: #000;
+  color: #fff;
 }
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
-  color: #000;
-  border: 1px solid #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
@@ -1908,6 +1908,7 @@ body {
 .item-content {
   background: #12403c;
   padding: 40px;
+  min-height: 490px;
 }
 
 .item-icon {

@@ -58,11 +58,11 @@ body {
     outline: none;
     &:hover, &:focus {
       cursor: pointer;
-      color: $blue;
+      color: #fff;
       &::after {
         cursor: pointer;
-        color: $blue;
-        border: 1px solid $blue;
+        color: #fff;
+        border: 1px solid #fff;
       }
     }
     .accordion-title {
