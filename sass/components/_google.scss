@@ -1,0 +1,21 @@
+.review {
+    height:200px; 
+    width: 100%;
+    background-image:linear-gradient(to right, rgb(47 48 58 / 32%), rgb(47 48 58 / 42%)),url(../../images/Google.png);
+    background-size: cover;
+    padding: 10px;
+
+    @media only screen and (min-width: 1200px) {
+        background-position: center;
+        background-image: linear-gradient(to right, rgb(47 48 58 / 86%), rgb(47 48 58 / 79%)),url(../../images/Google.png);
+        height: 171px;
+    }
+}
+
+.googleTitle {
+    @media only screen and (min-width: 1200px) {
+
+    color: #fff;
+    margin-top: 10px;
+    }
+}
