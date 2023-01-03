@@ -16,7 +16,7 @@
 
 
   let activeAlert = false;
-    const title = "Cowabunga tattoo / ТАТУ В КИЕВЕ";
+    const title = "Cowabunga Tattoo / ТАТУ В КИЕВЕ";
     const msg = "Победы 68/1";
     const changeTitle = setInterval(() => {
       document.title = activeAlert ? title : msg;
