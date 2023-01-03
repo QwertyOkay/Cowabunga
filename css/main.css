@@ -1062,7 +1062,7 @@ a:hover {
 }
 
 .current-mob {
-  color: #e5dec2;
+  color: #918d7d;
 }
 
 .mob-menu__close-button {
@@ -1092,7 +1092,7 @@ a:hover {
   font-size: 27px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #e5dec2;
+  color: #918d7d;
 }
 @media screen and (min-width: 480px) {
   .mob-menu-contacts__tel {
@@ -1147,7 +1147,7 @@ a:hover {
 }
 .mob-menu-social .mob-menu-social__link {
   text-decoration: none;
-  color: #e5dec2;
+  color: #918d7d;
 }
 
 .modal__backdrop {
