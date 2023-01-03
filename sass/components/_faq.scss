@@ -58,8 +58,8 @@ body {
     outline: none;
     &:hover, &:focus {
       cursor: pointer;
-      color: #fff;
-      &::after {
+/*       color: $accent-color;
+ */      &::after {
         cursor: pointer;
         color: #fff;
         border: 1px solid #fff;

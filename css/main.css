@@ -288,6 +288,12 @@ summary {
   pointer-events: none;
 }
 
+.is-hidden2 {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
 p,
 h1,
 h2,
@@ -1617,7 +1623,8 @@ body {
 }
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: #fff;
+  /*       color: $accent-color;
+   */
 }
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
