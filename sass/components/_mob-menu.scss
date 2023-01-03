@@ -98,6 +98,7 @@ $accent-color2: #918d7d;
 
   .mob-menu-contacts__item {
     margin-bottom: 32px;
+    text-align: center;
     &:last-child {
       margin-bottom: 64px;
     }
@@ -123,6 +124,9 @@ $accent-color2: #918d7d;
     flex-direction: row;
     flex-wrap: wrap;
     padding-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    justify-content: center;
   
     li {
       padding-right: 10px;
@@ -142,6 +146,7 @@ $accent-color2: #918d7d;
 
     .mob-menu-social__link {
       text-decoration: none;
-      color: $accent-color2;
+      color: #20201e;
+      font-weight: 700;
     }
   }

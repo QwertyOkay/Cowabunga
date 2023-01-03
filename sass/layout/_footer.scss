@@ -44,12 +44,17 @@
     // display: block;
     /* margin-bottom: 20px; */
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 20px;
+
+    @media screen and (min-width: 1200px) {
+      font-size: 14px;
+      text-align: center;
+    }
   }
 
 .footer__address {

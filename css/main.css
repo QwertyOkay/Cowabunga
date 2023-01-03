@@ -1102,6 +1102,7 @@ a:hover {
 
 .mob-menu-contacts__item {
   margin-bottom: 32px;
+  text-align: center;
 }
 .mob-menu-contacts__item:last-child {
   margin-bottom: 64px;
@@ -1128,6 +1129,9 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   padding-bottom: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  justify-content: center;
 }
 .mob-menu-social li {
   padding-right: 10px;
@@ -1147,7 +1151,8 @@ a:hover {
 }
 .mob-menu-social .mob-menu-social__link {
   text-decoration: none;
-  color: #918d7d;
+  color: #20201e;
+  font-weight: 700;
 }
 
 .modal__backdrop {
@@ -2335,12 +2340,18 @@ body {
 .footer__text {
   /* margin-bottom: 20px; */
   font-weight: 700;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__text {
+    font-size: 14px;
+    text-align: center;
+  }
 }
 
 .footer__address {
