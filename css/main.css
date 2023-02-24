@@ -1832,7 +1832,7 @@ body {
   font-family: "Source Sans Pro";
   padding: 0;
   margin: 0;
-  background-color: #12403C;
+  background-color: #12403c;
   text-transform: uppercase;
 }
 .navigation__list li:nth-child(n+2) {
@@ -2302,6 +2302,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-bottom: 80px;
 }
 
 .section--background-color {

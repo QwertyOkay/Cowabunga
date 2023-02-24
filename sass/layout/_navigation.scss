@@ -8,58 +8,56 @@
   background-color: $main-title-color;
   display: none;
 
-  @media screen and(min-width:768px) {
+  @media screen and (min-width: 768px) {
     display: block;
   }
-  @media screen and(min-width:768px) {
+  @media screen and (min-width: 768px) {
     margin-left: 93px;
   }
+}
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+  font-family: "Source Sans Pro";
+  padding: 0;
+  margin: 0;
+  background-color: #12403c;
+  text-transform: uppercase;
+
+  li:nth-child(n + 2) {
+    margin-left: 50px;
   }
+}
 
-  .navigation__list {
-    display: flex;
-    list-style: none;
-    font-family: 'Source Sans Pro';
-    padding: 0;
-    margin: 0;
-    background-color: #12403C;
-    text-transform: uppercase;
+.navigation__link {
+  display: block;
+  text-decoration: none;
+  color: $second-title-color;
+  font-family: Nunito, sans-serif;
+  padding: 36px 0;
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
 
-    li:nth-child(n + 2) {
-      margin-left: 50px;
-    }
-  }
-
-  .navigation__link {
-    display: block;
-    text-decoration: none;
-    color: $second-title-color;
-    font-family: Nunito, sans-serif;
-    padding: 36px 0;
-    transition-property: color;
-    transition-duration: var(--duration);
-    transition-timing-function: var(--function);
-
-    &:hover,
-    &:focus {   
-      color: $accent-color;
-    }
-  }
-
-  .navigation__link--current {
+  &:hover,
+  &:focus {
     color: $accent-color;
-    position: relative;
   }
+}
 
-  .navigation__link--current::after {
-    content: '';
-    width: 100%;
-    height: 4px;
-    background-color: $accent-color;
-    border-radius: 2px;
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-  }
+.navigation__link--current {
+  color: $accent-color;
+  position: relative;
+}
 
-  
+.navigation__link--current::after {
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: $accent-color;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
