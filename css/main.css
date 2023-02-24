@@ -1939,7 +1939,6 @@ body {
   display: flex;
   align-items: center;
   background: white;
-  height: 400px;
   margin: 0 auto;
   background-image: url(../images/hero2-bg-note-1x.jpg);
   background-color: rgba(5, 82, 75, 0.2);
@@ -2004,7 +2003,7 @@ body {
 .item-icon:before {
   content: "";
   font-family: FontAwesome;
-  color: #F09EA3;
+  color: #f09ea3;
   font-size: 50px;
   line-height: 1;
 }
@@ -2048,7 +2047,7 @@ body {
   font-weight: 500;
   margin-bottom: 15px;
   transition-delay: 0.05s;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 20px;
 }
 
@@ -2070,7 +2069,7 @@ body {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #F5E2CD;
+  color: #f5e2cd;
 }
 
 .link:before {
@@ -2082,7 +2081,7 @@ body {
   bottom: 0;
   height: 0.125rem;
   margin: auto;
-  background: #FFFFFF;
+  background: #ffffff;
   transform: scaleX(0.2);
   transform-origin: left center;
   z-index: 0;
