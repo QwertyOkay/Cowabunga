@@ -21,4 +21,4 @@
     const changeTitle = setInterval(() => {
       document.title = activeAlert ? title : msg;
       activeAlert = !activeAlert;
-    }, 1200);
+    }, 3600000);
