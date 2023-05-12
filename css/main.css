@@ -2827,7 +2827,7 @@ h0 {
   z-index: 101;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.62);
+  background-color: rgba(0, 0, 0, 0.88);
   opacity: 1;
   visibility: visible;
   transition-property: opacity, visibility;
