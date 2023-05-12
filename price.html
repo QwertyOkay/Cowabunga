@@ -22,7 +22,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
     <link rel="icon" type="image/png" sizes="32x32" href="/Favicon.ico">
-  <link rel="icon" type="image/png" sizes="16x16" href="/Favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/Favicon.ico">
 
     <style>
         h1 {
@@ -154,7 +154,7 @@
             <div class="social">
                 <div class="text">
                     <h1>Минимальная стоимость</h1>
-                    <h0>1 500</h0>
+                    <h0>1 700</h0>
                     <ul>
 
                         <li>Cтоимость татуировки зависит от того, сколько потребуется расходных материалов и от
@@ -169,7 +169,7 @@
             <div class="social">
                 <div class="text">
                     <h1>Сеанс 3-6 часов</h1>
-                    <h0>3 900 - <br>7 800</h0>
+                    <h0>4 200 - <br>8 400</h0>
                     <ul>
                         <li>Цены указаны, если татуировка делается за один сеанс.</li>
                         <li>Если нанесение тату делается за несколько сеансов, в таком случае предусмотрена скидка.</li>
@@ -327,6 +327,50 @@
             </div>
         </div>
     </div>
+
+    <!-- MODAL #5 (Popup YES/NO) -->
+    <div class="modal__backdrop9" data-modal9>
+        <div class="modal9 fadeIn" data-form-modal9>
+
+            <div class="modal4__pad">
+                <div class="modal__hero-text4 heightAuto">
+                    <p class="modal__p pParams">Оплата консультации в размере 500 грн считается депозитом на будущий
+                        сеанс не позднее 3 недель после консультации.
+                        Если консультация затягивается дольше, чем на 60 минут - оплата идет отдельно + 500 грн, которые
+                        не включаются в стоимость будущего тату, а является оплатой за время тату мастера<br>
+                        Правило распространяется на всех тату мастеров в нашей студии.<br><br>
+                        *В случае проведения сеанса нанесения позднее 3 недель, от дня консультации депозит в размере
+                        500 грн сгорает
+
+                    </p>
+                </div>
+            </div>
+            <div class="modalButtons">
+                <button type="button" class="yesButton" data-modal-close9>
+                    OK
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (() => {
+            const refs = {
+
+                closeModalBtn3: document.querySelector('[data-modal-close9]'),
+                modal9: document.querySelector('[data-modal9]'),
+
+            };
+
+            refs.closeModalBtn3.addEventListener('click', toggleModal9);
+
+
+            function toggleModal9() {
+                refs.modal9.classList.add('is-hidden9');
+            }
+
+        })();
+    </script>
 
 
     <script src="./js/menu.js"></script>

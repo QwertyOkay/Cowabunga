@@ -2673,4 +2673,164 @@ h0 {
   .social {
     width: 500px;
   }
+}
+.modal9 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%) scale(1);
+  width: 500px;
+  padding: 15px;
+  opacity: 1;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid 7px #13403c;
+  background-color: #060708;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: type-orange;
+  color: #000 !important;
+  transition-duration: 0.4s;
+  transition-timing-function: cubic-bezier(0.36, 0.55, 0.19, 1);
+  transition-property: all, margin;
+  width: 320px;
+  border-radius: 10px;
+  height: 410px;
+}
+@media screen and (min-width: 1200px) {
+  .modal9 {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+.modal__close9 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  display: block;
+  color: brown;
+  margin-top: 20px;
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.modalButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.yesButton {
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: background 0.1s;
+  transition: background 0.1s;
+  padding: 10px 10px;
+  background-color: #fe0;
+  color: #000;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  min-height: 1em;
+  border: none;
+  border-radius: 50px;
+}
+
+.noButton {
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-transition: background 0.1s;
+  transition: background 0.1s;
+  padding: 10px 20px;
+  background-color: #a1472e;
+  color: #000;
+  text-shadow: none;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  min-height: 1em;
+  border: none;
+}
+
+.heightAuto {
+  height: auto !important;
+}
+
+.pParams {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.modal4__pad {
+  color: #fff;
+}
+
+.modal__backdrop9.is-hidden9 > .modal9 {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(2.9);
+}
+
+.modal__backdrop9.is-hidden9 {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal__backdrop9 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.62);
+  opacity: 1;
+  visibility: visible;
+  transition-property: opacity, visibility;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }/*# sourceMappingURL=main.css.map */
