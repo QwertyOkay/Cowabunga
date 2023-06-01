@@ -1024,8 +1024,8 @@ a:hover {
 .mob-menu-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+  justify-content: space-around;
+  height: 100vh;
   padding: 48px 40px;
   transform: translateY(0);
   transition-property: transform;
@@ -1050,19 +1050,19 @@ a:hover {
 }
 
 .mob-menu__link {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 500;
   line-height: 1.18;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: white;
+  color: #57554e !important;
 }
 .mob-menu__link:hover, .mob-menu__link:focus {
   color: #e5dec2;
 }
 
 .current-mob {
-  color: #918d7d;
+  color: #57554e;
 }
 
 .mob-menu__close-button {
@@ -1092,7 +1092,7 @@ a:hover {
   font-size: 27px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #918d7d;
+  color: #57554e;
 }
 @media screen and (min-width: 480px) {
   .mob-menu-contacts__tel {
@@ -1135,7 +1135,6 @@ a:hover {
 }
 .mob-menu-social li {
   padding-right: 10px;
-  border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
 .mob-menu-social li:last-child {
   border-right: 0;
@@ -1153,6 +1152,11 @@ a:hover {
   text-decoration: none;
   color: #20201e;
   font-weight: 700;
+}
+
+.mob-menu__iconSocials {
+  width: 35px;
+  height: 35px;
 }
 
 .modal__backdrop {
