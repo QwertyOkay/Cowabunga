@@ -64,7 +64,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style: inherit;
+  // list-style: inherit;
   justify-content: center;
   line-height: 4;
   height: 100%;
@@ -81,4 +81,18 @@
 
 .item-footer a:hover {
   color: #fff;
+}
+
+.about__list-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.hero__icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+  background: #12a9343b;
 }
