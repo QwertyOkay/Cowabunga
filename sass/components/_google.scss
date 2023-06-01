@@ -1,21 +1,65 @@
 .review {
-    height:200px; 
-    width: 100%;
-    background-image:linear-gradient(to right, rgb(47 48 58 / 32%), rgb(47 48 58 / 42%)),url(../../images/Google.png);
-    background-size: cover;
-    padding: 10px;
+  height: 200px;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgb(47 48 58 / 32%),
+      rgb(47 48 58 / 42%)
+    ),
+    url(../../images/socials/Reviews.png);
+  background-size: cover;
+  padding: 20px;
 
-    @media only screen and (min-width: 1200px) {
-        background-position: center;
-        background-image: linear-gradient(to right, rgb(47 48 58 / 86%), rgb(47 48 58 / 79%)),url(../../images/Google.png);
-        height: 171px;
-    }
+  @media only screen and (min-width: 1200px) {
+    background-position: center;
+    background-image: linear-gradient(
+        to right,
+        rgb(47 48 58 / 22%),
+        rgb(47 48 58 / 35%)
+      ),
+      url(../../images/socials/Reviews.png);
+    height: 171px;
+  }
+}
+
+.review__button {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #aaa79c;
+  transition-property: background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--function);
+  width: 343px;
+  height: 52px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #0000001a;
 }
 
 .googleTitle {
-    @media only screen and (min-width: 1200px) {
-
+  @media only screen and (min-width: 1200px) {
     color: #fff;
     margin-top: 10px;
-    }
+  }
 }
