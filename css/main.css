@@ -1466,6 +1466,8 @@ a:hover {
 .img-wrapper {
   position: relative;
   margin-top: 15px;
+  overflow: hidden;
+  max-height: 365px;
 }
 .img-wrapper img {
   width: 100%;
@@ -1568,7 +1570,7 @@ a:hover {
 }
 
 .gallery__black {
-  background-color: #000;
+  background-color: #12403c;
 }
 
 .fa {
