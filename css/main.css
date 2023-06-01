@@ -1774,9 +1774,9 @@ body {
 }
 @media only screen and (min-width: 1200px) {
   .review {
-    background-position: center;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.22), rgba(47, 48, 58, 0.35)), url(../../images/socials/Reviews.png);
-    height: 171px;
+    background-image: linear-gradient(to right, rgba(134, 132, 132, 0.53), rgba(47, 48, 58, 0.75)), url(../../images/socials/Reviews.png);
+    height: 190px;
+    background-size: auto;
   }
 }
 
@@ -1804,7 +1804,7 @@ body {
   transition-property: background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
-  width: 343px;
+  width: 220px;
   height: 52px;
   letter-spacing: 0.02em;
   color: #fff;
@@ -2332,8 +2332,10 @@ body {
   align-items: center;
   list-style: inherit;
   justify-content: center;
-  line-height: 3;
+  line-height: 4;
   height: 100%;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .about__container {

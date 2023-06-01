@@ -11,14 +11,14 @@
   padding: 20px;
 
   @media only screen and (min-width: 1200px) {
-    background-position: center;
     background-image: linear-gradient(
         to right,
-        rgb(47 48 58 / 22%),
-        rgb(47 48 58 / 35%)
+        rgb(134 132 132 / 53%),
+        rgb(47 48 58 / 75%)
       ),
       url(../../images/socials/Reviews.png);
-    height: 171px;
+    height: 190px;
+    background-size: auto;
   }
 }
 
@@ -46,7 +46,7 @@
   transition-property: background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
-  width: 343px;
+  width: 220px;
   height: 52px;
   letter-spacing: 0.02em;
   color: #fff;
