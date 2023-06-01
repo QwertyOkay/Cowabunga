@@ -2153,6 +2153,12 @@ body {
     flex-basis: 33.333333333%;
   }
 }
+@media (min-width: 1200px) {
+  .col-lg-3 {
+    width: 33% !important;
+  }
+}
+
 .feature__list {
   list-style: none;
 }
