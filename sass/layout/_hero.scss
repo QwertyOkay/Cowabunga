@@ -95,14 +95,13 @@
   display: flex;
   align-items: center;
   background: white;
-  // height: 400px;
   margin: 0 auto;
   background-image: url(../images/hero2-bg-note-1x.jpg);
   background-color: rgba(5, 82, 75, 0.2);
 
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 118px 0;
+  padding: 60px 0;
 
   @media (min-resolution: 2dppx) {
     background-image: url(../images/hero2-bg-note-1x.jpg);
@@ -131,7 +130,7 @@
   @media screen and (min-width: 1200px) {
     width: 100%;
     max-width: 2000px;
-    min-height: 800px;
+    // min-height: 800px;
     background-image: url(../images/hero2-bg-note-1x.jpg);
     // padding-top: 200px;
     background-color: rgba(5, 82, 75, 0.2);
@@ -161,6 +160,7 @@
   background: #12403c;
   padding: 40px;
   min-height: 490px;
+  border-radius: 4px;
 }
 
 .item-icon {

@@ -57,6 +57,13 @@
   border: 1px solid #0000001a;
 }
 
+.review__button:hover,
+.btn:hover {
+  color: #fff !important;
+  background-color: #12403c !important;
+  transition: 1000ms !important;
+}
+
 .googleTitle {
   @media only screen and (min-width: 1200px) {
     color: #fff;
