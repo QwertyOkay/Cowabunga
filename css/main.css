@@ -1466,7 +1466,7 @@ a:hover {
   margin-top: 15px;
   overflow: hidden;
   max-height: 365px;
-  border-radius: 50px;
+  border-radius: 4px;
 }
 .img-wrapper img {
   width: 100%;
