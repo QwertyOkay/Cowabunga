@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Функция загрузки переводов
   function loadTranslation(userLanguage) {
-    fetch(`translations/${userLanguage}.json`)
+    fetch(`translations/${userLanguage}.json?nocache=${Math.random()}`)
       .then(response => response.json())
       .then(data => {
         welcomeElement.textContent = data.Consultation;
