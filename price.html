@@ -29,9 +29,9 @@
             font-size: 20px;
             padding: 10px;
 
-            @media screen and (min-width) h1 {
+            /* @media screen and (min-width) h1 {
                 font-size: 25px;
-            }
+            } */
         }
 
         h0 {
@@ -93,46 +93,41 @@
             </ul>
         </div>
     </div>
+
     <header class="header">
-        <div class="header__container container">
-            <a class="logo logo--header" href="/" lang="en">
-                <img src="images/Logo.png" alt="HeaderLogo" style="width: 210px;
-       height: 75px;"></a>
-            <button type="button" class="button__open-menu" data-menu-open>
-                <svg class="icon icon__mob-menu">
-                    <use href="images/icons.svg#icon-menu"></use>
-                </svg>
-            </button>
+    <div class="header__container container">
+      <a class="logo logo--header" href="/" lang="en">
+        <img src="images/Logo.png" alt="HeaderLogo" style="width: 210px;
+           height: 75px;"></a>
+      <button type="button" class="button__open-menu" data-menu-open>
+        <svg class="icon icon__mob-menu">
+          <use href="images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
 
-            <nav class="navigation">
+      <nav class="navigation">
 
-                <ul class="navigation__list">
-                    <li><a class="navigation__link" href="/">Студия</a></li>
-                    <li><a class="navigation__link navigation__link--current" href="/price">Цены</a></li>
-                    <!-- <li><a class="navigation__link" href ="./portfolio.html" >Портфолио</a></li> -->
-                    <li><a class="navigation__link" href="#footer">Контакты</a></li>
-                    <li><a class="navigation__link" href="/#FAQ">Заживление</a></li>
-                </ul>
-            </nav>
+        <ul class="navigation__list">
+          <li><a class="navigation__link " href="/">Студия</a></li>
+          <li><a class="navigation__link navigation__link--current" href="/price">Цены</a></li>
+          <li><a class="navigation__link" href="#contacts">Контакты</a></li>
+          <li><a class="navigation__link" href="#FAQ">Заживление</a></li>
+        </ul>
+      </nav>
 
-            <ul class="contacts__list lists">
-                <li class="contacts__item">
-                    <a class="contacts__link contacts__link-tel" href="tel:+380930305383">
-                        <svg class="contacts__icon icon icon__tel" width="10" height="16">
-                            <use href="./images/icons.svg#icon-smartphone"></use>
-                        </svg>+38 093 030 53 83</a>
-                </li>
+      <ul class="contacts__list lists">
+        <li class="contacts__item">
+          <a class="contacts__link contacts__link-tel" href="tel:+380930305383">
+            <img class="contacts__icon icon icon__tel" width="16" height="16" src="./images/socials/phone.png" alt="phone">+38 093 030 53 83</a>
+        </li>
 
-                <li class="contacts__item">
-                    <a class="contacts__link contacts__link-tel" href="tel:+380954218439">
-                        <svg class="contacts__icon icon icon__tel" width="10" height="16">
-                            <use href="./images/icons.svg#icon-smartphone"></use>
-                        </svg>+38 095 421 84 39</a>
-                </li>
-
-            </ul>
-        </div>
-    </header>
+        <li class="contacts__item">
+          <a class="contacts__link contacts__link-tel" href="tel:+380954218439">
+            <img class="contacts__icon icon icon__tel" width="16" height="16" src="./images/socials/phone.png" alt="phone">+38 095 421 84 39</a>
+        </li>
+      </ul>
+    </div>
+  </header>
 
 
     <div class="content-wrapper">
@@ -184,77 +179,75 @@
     </div>
 
 
-    <footer class="footer" id="footer">
-        <div class="footer__container container">
-            <div class="footer-tablet">
-                <div class="footer__content">
-                    <a class="logo logo--footer" href="/" lang="en"><span class="logo logo--accent">Cowabunga
-                            <br>TATTOO</span></a>
+    <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer-tablet">
+        <div class="footer__content">
+          <a class="logo logo--footer" href="/" lang="en"><span class="logo logo--accent">COWABUNGA TATTOO</span></a>
 
-                    <address class="footer-address">
-                        <a class="footer__address" href="https://goo.gl/maps/k91zt2DU9KAKNsNj6" target="_blank"
-                            rel="noopener, nofollow, noreferrer">Киев, пр-т Победы, 68/1</a>
+          <address class="footer-address">
+            <a class="footer__address" href="https://goo.gl/maps/k91zt2DU9KAKNsNj6" target="_blank"
+              rel="noopener, nofollow, noreferrer">Киев, пр-т Победы, 68/1</a>
 
-                        <ul class="lists">
-                            <!-- <li class="footer__item">
-                                <a class="footer__link" href="mailto:cowabunga@gmail.com">cowabunga@gmail.com</a>
-                            </li> -->
-                            <li class="footer__item">
-                                <a class="footer__link" href="tel:+380930305383">+38 093 030 53 83</a>
-                                <a class="footer__link" href="tel:+380954218439">+38 095 421 84 39</a>
-                            </li>
-                        </ul>
-                    </address>
-                </div>
+            <ul class="lists">
+              <!--  <li class="footer__item">
+                <a class="footer__link" href="mailto:cowabunga@gmail.com">cowabunga@gmail.com</a>
+              </li> -->
+              <li class="footer__item">
+                <a class="footer__link" href="tel:+380930305383">+38 093 030 53 83</a>
+                <a class="footer__link" href="tel:+380954218439">+38 095 421 84 39</a>
+              </li>
+            </ul>
+          </address>
+        </div>
 
-                <div class="footer__thumb--social">
-                    <p class="footer__text">Связаться с нами</p>
-                    <ul class="lists social__list">
-                        <li class="social__item">
-                            <a href="https://www.instagram.com/cowabunga_tattoo/" target="_blank"
-                                class="social__link social__link--footer">
-                                <svg class="icon__social">
-                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="https://t.me/Timoshenko_Roman" target="_blank"
-                                class="social__link social__link--footer">
-                                <svg class="icon__social">
-                                    <use href="./images/icons.svg#icon-telegram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="https://www.facebook.com/timasroman/photos/" target="_blank"
-                                class="social__link social__link--footer">
-                                <svg class="icon__social">
-                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="viber://add?number=380930305383" target="_blank"
-                                class="social__link social__link--footer">
-                                <svg class="icon__social">
-                                    <use href="./images/icons.svg#icon-viber"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a href="https://api.whatsapp.com/send?phone=380930305383" target="_blank"
-                                class="social__link social__link--footer">
-                                <svg class="icon__social">
-                                    <use href="./images/icons.svg#icon-whatsapp"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <div class="footer__thumb--social">
+          <p class="footer__text">Связаться с нами</p>
+          <ul class="lists social__list">
+            <li class="social__item">
+              <a href="https://www.instagram.com/cowabunga_tattoo/" target="_blank"
+                class="social__link social__link--footer">
+                <svg class="icon__social">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://t.me/Timoshenko_Roman" target="_blank" class="social__link social__link--footer">
+                <svg class="icon__social">
+                  <use href="./images/icons.svg#icon-telegram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.facebook.com/timasroman/photos/" target="_blank"
+                class="social__link social__link--footer">
+                <svg class="icon__social">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="viber://add?number=380930305383" target="_blank" class="social__link social__link--footer">
+                <svg class="icon__social">
+                  <use href="./images/icons.svg#icon-viber"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://api.whatsapp.com/send?phone=380930305383" target="_blank"
+                class="social__link social__link--footer">
+                <svg class="icon__social">
+                  <use href="./images/icons.svg#icon-whatsapp"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
 
-            <!-- <div class="subscribe">
+      </div>
+
+      <!-- <div class="subscribe">
             <form class="form__subscribe" name="subscribe-form" autocomplete="on" >
                   <p class="footer__text">подпишитесь на рассылку</p>
                   <div class="subscribe__row">
@@ -273,8 +266,14 @@
                   </div>
                 </form>
         </div> -->
-        </div>
-    </footer>
+    </div>
+
+     <p class="footer__rights">Сайт разработан <a href="https://instagram.com/qwerty_web_studio"><span class="footer__addInfo"> QWERTY </span></a> веб-студией</p>
+
+    <p class="footer__rights">Все права защищены  <br> &COPY; 2023 <br> cowabunga-tattoo.com</p>
+
+   
+  </footer>
 
    <div class="mob-menu is-hidden" data-menu>
     <div class="mob-menu-container" data-menu-close>
