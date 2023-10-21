@@ -13,6 +13,17 @@
     "aboutListTitleFive": "9 years of tattoo industry experience",
 
     "metaDesc":"Welcome to Cowabunga TATTOO, the leading tattoo studio in Kyiv specializing in realism. Our experienced artists craft unique and expressive tattoos that come to life on your skin.",
-    "metaKey":"Tattoo, Tattoo Studio, Kyiv, Realism, Tattoo, Art, Tattoo Artist"
+    "metaKey":"Tattoo, Tattoo Studio, Kyiv, Realism, Tattoo, Art, Tattoo Artist",
+
+    "featureSubtitleFirst":"Quality Materials and Equipment",
+    "featureSubtitleSecond":"Advance Booking for the Nearest Time",
+    "featureSubtitleThird":"Guaranteed Sterility",
+    "featureSubtitleFour":"Tattoo Master Consultation",
+
+    "featureTextFirst":"Because good results matter to us, we use the most modern and high-quality materials.",
+    "featureTextSecond":"Our manager will find a convenient time for your appointment. For effective tattooing, we recommend abstaining from alcohol and narcotics for 24 hours before the session.",
+    "featureTextThird":"Disposable consumables, sterile equipment.",
+    "featureTextFour":"Explore the details of the consultation and prices.",
+    "featureTextAdd":"here."
 
 }

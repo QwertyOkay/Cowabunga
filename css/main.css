@@ -2297,6 +2297,8 @@ body {
   font-weight: 500;
   color: #12403c;
   text-decoration: underline;
+  text-align: center;
+  display: block;
 }
 
 .section--no-padding-top {
@@ -2415,6 +2417,7 @@ body {
 }
 .about__item p {
   margin: 0 !important;
+  font-weight: 500;
 }
 
 .section--background-color {

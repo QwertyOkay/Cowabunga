@@ -12,6 +12,17 @@ document.addEventListener('DOMContentLoaded', function() {
   const aboutListTitleFour = document.getElementById('aboutList-4');
   const aboutListTitleFive = document.getElementById('aboutList-5');
 
+  const featureSubtitleFirst = document.getElementById('featureSubtitle-1');
+  const featureSubtitleSecond = document.getElementById('featureSubtitle-2');
+  const featureSubtitleThird = document.getElementById('featureSubtitle-3');
+  const featureSubtitleFour = document.getElementById('featureSubtitle-4');
+
+  const featureTextFirst = document.getElementById('featureText-1');
+  const featureTextSecond = document.getElementById('featureText-2');
+  const featureTextThird = document.getElementById('featureText-3');
+  const featureTextFour = document.getElementById('featureText-4')
+  const featureTextAdd = document.getElementById('featureText-5')
+
   // Используйте querySelector для получения мета-тегов
   const metaDesc = document.querySelector("meta[name='description']");
   const metaKey = document.querySelector("meta[name='keywords']");
@@ -34,6 +45,17 @@ document.addEventListener('DOMContentLoaded', function() {
         aboutListTitleFour.textContent = data.aboutListTitleFour;
         aboutListTitleFive.textContent = data.aboutListTitleFive;
 
+        featureSubtitleFirst.textContent = data.featureSubtitleFirst;
+        featureSubtitleSecond.textContent = data.featureSubtitleSecond;
+        featureSubtitleThird.textContent = data.featureSubtitleThird;
+        featureSubtitleFour.textContent = data.featureSubtitleFour;
+
+        featureTextFirst.textContent = data.featureTextFirst;
+        featureTextSecond.textContent = data.featureTextSecond;
+        featureTextThird.textContent = data.featureTextThird;
+        featureTextFour.textContent = data.featureTextFour;
+        featureTextAdd.textContent = data.featureTextAdd;
+
         // Измените содержимое мета-тегов
         if (data.metaDesc) {
           metaDesc.setAttribute("content", data.metaDesc);
@@ -42,6 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
           metaKey.setAttribute("content", data.metaKey);
         }
       })
+
       .catch(error => {
         console.error('Ошибка при загрузке перевода:', error);
       });
