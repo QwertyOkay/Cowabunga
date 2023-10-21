@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -990,7 +991,7 @@ a:hover {
 }
 @media screen and (min-width: 1200px) {
   .icon__tel {
-    width: 10px;
+    width: 16px;
     height: 16px;
   }
 }
@@ -2397,6 +2398,28 @@ body {
 .about__img {
   opacity: 0.94;
   border-radius: 4px;
+}
+
+.about__item-textList {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: fade 9s 6; /* Задаем анимацию длительностью 9 секунд и повторяющуюся 3 раза */
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 0.5; /* Начальное и конечное положение - текст полностью прозрачен */
+  }
+  50% {
+    opacity: 1; /* Текст становится непрозрачным на половину времени анимации */
+  }
+}
+p {
+  margin: 0 !important;
+}
+
+p {
+  margin: 0px !important;
 }
 
 .section--background-color {

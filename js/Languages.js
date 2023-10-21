@@ -1,9 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
   const welcomeElement = document.getElementById('Consultation');
   const aboutElement = document.getElementById('Studio');
-    const servicesElement = document.getElementById('Price');
-    const contactsElement = document.getElementById('Contacts');
-    const healingElement = document.getElementById('Healing');
+  const servicesElement = document.getElementById('Price');
+  const contactsElement = document.getElementById('Contacts');
+  const healingElement = document.getElementById('Healing');
+  const aboutTitle = document.getElementById('aboutTitle');
+
+  const aboutListTitleFirst = document.getElementById('aboutList-1');
+  const aboutListTitleSecond = document.getElementById('aboutList-2');
+  const aboutListTitleThird = document.getElementById('aboutList-3');
+  const aboutListTitleFour = document.getElementById('aboutList-4');
+  const aboutListTitleFive = document.getElementById('aboutList-5');
+
 
   // Функция загрузки переводов
   function loadTranslation(userLanguage) {
@@ -14,7 +22,16 @@ document.addEventListener('DOMContentLoaded', function() {
         aboutElement.textContent = data.Studio;
           servicesElement.textContent = data.Price;
           contactsElement.textContent = data.Contacts;
-          healingElement.textContent = data.Healing;
+        healingElement.textContent = data.Healing;
+        aboutTitle.textContent = data.aboutTitle;
+
+        aboutListTitleFirst.textContent = data.aboutListTitleFirst;
+        aboutListTitleSecond.textContent = data.aboutListTitleSecond;
+        aboutListTitleThird.textContent = data.aboutListTitleThird;
+        aboutListTitleFour.textContent = data.aboutListTitleFour;
+        aboutListTitleFive.textContent = data.aboutListTitleFive;
+
+
       })
       .catch(error => {
         console.error('Ошибка при загрузке перевода:', error);

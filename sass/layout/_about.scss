@@ -101,3 +101,43 @@
   opacity: 0.94;
   border-radius: 4px;
 }
+
+// .about__item-textList {
+//   white-space: nowrap;
+//   overflow: hidden;
+//   animation: fade 9s infinite;
+// }
+
+// @keyframes fade {
+//   0%,
+//   100% {
+//     opacity: 0.5;
+//   }
+//   50% {
+//     opacity: 1;
+//   }
+// }
+
+.about__item-textList {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: fade 9s 6; /* Задаем анимацию длительностью 9 секунд и повторяющуюся 3 раза */
+}
+
+@keyframes fade {
+  0%,
+  100% {
+    opacity: 0.5; /* Начальное и конечное положение - текст полностью прозрачен */
+  }
+  50% {
+    opacity: 1; /* Текст становится непрозрачным на половину времени анимации */
+  }
+}
+
+p {
+  margin: 0 !important;
+}
+
+p {
+  margin: 0px !important;
+}
