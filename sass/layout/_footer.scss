@@ -37,10 +37,24 @@
   margin-top: 20px;
 }
 
-.footer__thumb--social {
-  margin-right: auto;
+// .footer__thumb--social {
+//   margin-right: auto;
+// }
+
+.header__thumb--social {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
   @media screen and (min-width: 768px) {
     margin-right: 0;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 107px;
   }
 }
 
@@ -101,6 +115,7 @@
 
   @media screen and (min-width: 1200px) {
     margin-bottom: 5px;
+    text-align: center;
   }
 
   &:hover,
