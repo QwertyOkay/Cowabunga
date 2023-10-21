@@ -8,78 +8,78 @@
 }
 
 .icon__send {
-    width: 24px;
-    height: 24px;
-    // margin-left: 10px;
-    vertical-align: middle;
-    fill: currentColor;
-    
-    &--append {
-      margin-left: 10px;
-    }
-  }
-  
-  .icon__social {
-    fill: currentColor;
-    width: 20px;
-    height: 20px;
-  }
-  
-  .icon__close {
-    fill: currentColor;
-    width: 18px;
-    height: 18px;
-  }
+  width: 24px;
+  height: 24px;
+  // margin-left: 10px;
+  vertical-align: middle;
+  fill: currentColor;
 
-  .modal__input:focus + .icon__modal-img {
-    fill: var(--accent-color);
+  &--append {
+    margin-left: 10px;
   }
+}
 
-  .icon__modal-img {
-    width: 18px;
-    height: 18px;
-    background-color: transparent;
+.icon__social {
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+}
 
-    position: absolute;
-    top: 0;
-    left: 0;
-    // transform: translateY(-50%);
-    transform: translate(12px, 28px);
-    
-    color: #000000;
-    transition-property: fill;
-    transition-duration: $duration;
-    transition-timing-function: $function;
-    /* fill: currentColor; */
-  }
+.icon__close {
+  fill: currentColor;
+  width: 18px;
+  height: 18px;
+}
 
-  .icon__check {
+.modal__input:focus + .icon__modal-img {
+  fill: var(--accent-color);
+}
+
+.icon__modal-img {
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  // transform: translateY(-50%);
+  transform: translate(12px, 28px);
+
+  color: #000000;
+  transition-property: fill;
+  transition-duration: $duration;
+  transition-timing-function: $function;
+  /* fill: currentColor; */
+}
+
+.icon__check {
+  width: 16px;
+  height: 15px;
+  fill: currentColor;
+}
+
+.icon__client {
+  width: 106px;
+  height: 60px;
+  fill: currentColor;
+}
+
+.icon__mob-menu {
+  width: 40px;
+  height: 40px;
+  fill: currentColor;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon__mail {
+  width: 14px;
+  height: 10px;
+
+  @media screen and (min-width: 1200px) {
     width: 16px;
-    height: 15px;
-    fill: currentColor;
+    height: 12px;
   }
-
-  .icon__client {
-    width: 106px;
-    height: 60px;
-    fill: currentColor;
-  }
-
-  .icon__mob-menu {
-    width: 40px;
-    height: 40px;
-    fill: currentColor;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .icon__mail {
-    width: 14px;
-    height: 10px;
-
-    @media screen and (min-width: 1200px) {
-      width: 16px;
-      height: 12px;
-    }
 }
 
 .icon__tel {
@@ -87,9 +87,9 @@
   height: 14px;
 
   @media screen and (min-width: 1200px) {
-    width: 10px;
+    width: 16px;
     height: 16px;
-}
+  }
 }
 
 .icon__menu-close {
