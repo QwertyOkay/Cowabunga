@@ -2404,9 +2404,6 @@ body {
   overflow: hidden;
   animation: fade 9s 6;
 }
-.about__item-textList p {
-  margin: 0 !important;
-}
 
 @keyframes fade {
   0%, 100% {
@@ -2416,6 +2413,10 @@ body {
     opacity: 1;
   }
 }
+.about__item p {
+  margin: 0 !important;
+}
+
 .section--background-color {
   background-color: #f5f4fa;
 }

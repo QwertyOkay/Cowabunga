@@ -5,10 +5,14 @@
     "Contacts": "Contacts",
     "Healing": "Healing",
     "aboutTitle": "About us",
-    
+
     "aboutListTitleFirst": "Conscious Approach",
     "aboutListTitleSecond": "Creating with Love",
     "aboutListTitleThird": "Crafting Unique Sketches",
     "aboutListTitleFour": "Custom Paintings",
-    "aboutListTitleFive": "9 years of tattoo industry experience "
+    "aboutListTitleFive": "9 years of tattoo industry experience",
+
+    "metaDesc":"Welcome to Cowabunga TATTOO, the leading tattoo studio in Kyiv specializing in realism. Our experienced artists craft unique and expressive tattoos that come to life on your skin.",
+    "metaKey":"Tattoo, Tattoo Studio, Kyiv, Realism, Tattoo, Art, Tattoo Artist"
+
 }

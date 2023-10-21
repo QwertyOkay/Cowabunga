@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const aboutListTitleFour = document.getElementById('aboutList-4');
   const aboutListTitleFive = document.getElementById('aboutList-5');
 
+  // Используйте querySelector для получения мета-тегов
+  const metaDesc = document.querySelector("meta[name='description']");
+  const metaKey = document.querySelector("meta[name='keywords']");
 
   // Функция загрузки переводов
   function loadTranslation(userLanguage) {
@@ -20,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(data => {
         welcomeElement.textContent = data.Consultation;
         aboutElement.textContent = data.Studio;
-          servicesElement.textContent = data.Price;
-          contactsElement.textContent = data.Contacts;
+        servicesElement.textContent = data.Price;
+        contactsElement.textContent = data.Contacts;
         healingElement.textContent = data.Healing;
         aboutTitle.textContent = data.aboutTitle;
 
@@ -31,7 +34,13 @@ document.addEventListener('DOMContentLoaded', function() {
         aboutListTitleFour.textContent = data.aboutListTitleFour;
         aboutListTitleFive.textContent = data.aboutListTitleFive;
 
-
+        // Измените содержимое мета-тегов
+        if (data.metaDesc) {
+          metaDesc.setAttribute("content", data.metaDesc);
+        }
+        if (data.metaKey) {
+          metaKey.setAttribute("content", data.metaKey);
+        }
       })
       .catch(error => {
         console.error('Ошибка при загрузке перевода:', error);

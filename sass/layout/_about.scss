@@ -106,10 +106,6 @@
   white-space: nowrap;
   overflow: hidden;
   animation: fade 9s 6;
-
-  p {
-    margin: 0 !important;
-  }
 }
 
 @keyframes fade {
@@ -120,4 +116,8 @@
   50% {
     opacity: 1;
   }
+}
+
+.about__item p {
+  margin: 0 !important;
 }
