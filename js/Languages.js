@@ -57,12 +57,12 @@ document.addEventListener('DOMContentLoaded', function() {
         featureTextAdd.textContent = data.featureTextAdd;
 
         // Измените содержимое мета-тегов
-        if (data.metaDesc) {
-          metaDesc.setAttribute("content", data.metaDesc);
-        }
-        if (data.metaKey) {
-          metaKey.setAttribute("content", data.metaKey);
-        }
+        // if (data.metaDesc) {
+        //   metaDesc.setAttribute("content", data.metaDesc);
+        // }
+        // if (data.metaKey) {
+        //   metaKey.setAttribute("content", data.metaKey);
+        // }
       })
 
       .catch(error => {
