@@ -20,8 +20,24 @@ document.addEventListener('DOMContentLoaded', function() {
   const featureTextFirst = document.getElementById('featureText-1');
   const featureTextSecond = document.getElementById('featureText-2');
   const featureTextThird = document.getElementById('featureText-3');
-  const featureTextFour = document.getElementById('featureText-4')
-  const featureTextAdd = document.getElementById('featureText-5')
+  const featureTextFour = document.getElementById('featureText-4');
+  const featureTextAdd = document.getElementById('featureText-5');
+
+  const servicesTitle = document.getElementById('servicesTitle');
+
+  const servicesSubtitleFirst = document.getElementById('servicesSubtitle-1');
+  const servicesSubtitleSecond = document.getElementById('servicesSubtitle-2');
+  const servicesSubtitleThird = document.getElementById('servicesSubtitle-3');
+  const servicesSubtitleFour = document.getElementById('servicesSubtitle-4');
+  const servicesSubtitleFive = document.getElementById('servicesSubtitle-5');
+  const servicesSubtitleSix = document.getElementById('servicesSubtitle-6');
+
+  const servicesSubtitleTextFirst = document.getElementById('servicesSubtitleText-1');
+  const servicesSubtitleTextSecond = document.getElementById('servicesSubtitleText-2');
+  const servicesSubtitleTextThird = document.getElementById('servicesSubtitleText-3');
+  const servicesSubtitleTextFour = document.getElementById('servicesSubtitleText-4');
+  const servicesSubtitleTextFive = document.getElementById('servicesSubtitleText-5');
+  const servicesSubtitleTextSix = document.getElementById('servicesSubtitleText-6');
 
   // Используйте querySelector для получения мета-тегов
   const metaDesc = document.querySelector("meta[name='description']");
@@ -56,6 +72,22 @@ document.addEventListener('DOMContentLoaded', function() {
         featureTextFour.textContent = data.featureTextFour;
         featureTextAdd.textContent = data.featureTextAdd;
 
+        servicesTitle.textContent = data.servicesTitle;
+
+        servicesSubtitleFirst.textContent = data.servicesSubtitleFirst;
+        servicesSubtitleSecond.textContent = data.servicesSubtitleSecond;
+        servicesSubtitleThird.textContent = data.servicesSubtitleThird;
+        servicesSubtitleFour.textContent = data.servicesSubtitleFour;
+        servicesSubtitleFive.textContent = data.servicesSubtitleFive;
+        servicesSubtitleSix.textContent = data.servicesSubtitleSix;
+
+        servicesSubtitleTextFirst.textContent = data.servicesSubtitleTextFirst;
+        servicesSubtitleTextSecond.textContent = data.servicesSubtitleTextSecond;
+        servicesSubtitleTextThird.textContent = data.servicesSubtitleTextThird;
+        servicesSubtitleTextFour.textContent = data.servicesSubtitleTextFour;
+        servicesSubtitleTextFive.textContent = data.servicesSubtitleTextFive;
+        servicesSubtitleTextSix.textContent = data.servicesSubtitleTextSix;
+        
         // Измените содержимое мета-тегов
         // if (data.metaDesc) {
         //   metaDesc.setAttribute("content", data.metaDesc);

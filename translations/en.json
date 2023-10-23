@@ -24,6 +24,26 @@
     "featureTextSecond":"Our manager will find a convenient time for your appointment. For effective tattooing, we recommend abstaining from alcohol and narcotics for 24 hours before the session.",
     "featureTextThird":"Disposable consumables, sterile equipment.",
     "featureTextFour":"Explore the details of the consultation and prices.",
-    "featureTextAdd":"here."
+    "featureTextAdd":"here.",
 
+    "servicesTitle":"Services",
+
+    "servicesSubtitleFirst":"Tattoo",
+    "servicesSubtitleSecond":"Correction",
+    "servicesSubtitleThird":"Sketch Creation",
+    "servicesSubtitleFour":"Cover-up",
+    "servicesSubtitleFive":"Healing",
+    "servicesSubtitleSix":"Custom Paintings",
+
+    "servicesSubtitleTextFirst":"Tattooing as art, self-expression and body adornment is becoming more and more popular and refined. \n We strive to make this process harmonious, listening to your individual preferences and with our extensive experience we'll help you choose the right placement and size.",
+
+    "servicesSubtitleTextSecond":"Correction is necessary in cases such as improper tattoo care or tattoos done a long time ago. Also, when using low-quality pigments or when the artist applies pigment to the superficial layers of the skin. It's also possible that after the epidermis renewal, the tattoo became less noticeable. \n In our studio, we use only high-quality materials and introduce pigment into the dermis to make your tattoo permanent.",
+
+    "servicesSubtitleTextThird":"Sketch Creation doing after consultation with the master, we take your preferences into account and help you choose the best option. It will be more effective if you select tattoo and style examples in advance.",
+    
+    "servicesSubtitleTextFour":"Correction and covering of tattoos are practiced, but it's important to consider that the area around the old design may be larger and require several sessions. \n In some cases, laser lightening of very dark areas is required.",
+
+    "servicesSubtitleTextFive":"Healing is done using several methods. If you have a dense or particularly colorful tattoo, we recommend the classic method with wraps, ointments, or creams. For tattoos with graphic elements and less traumatic ones, we use a healing film that needs to be worn for 4-5 days.",
+
+    "servicesSubtitleTextSix":"The artist-tattooist creates oil paintings that will preserve their contrast, richness, and unique brushstrokes for centuries. Optionally, they can be covered with damar varnish, but this process typically occurs 3-6 months after the creation of the artwork. Unlike canvas prints, oil provides depth to the pieces. This makes it a wonderful gift for both yourself and someone you want to delight. Prices start at $250, and the creation period ranges from 2 to 4 weeks, depending on the size and the studio's workload."
 }
