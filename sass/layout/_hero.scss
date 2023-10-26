@@ -280,11 +280,13 @@
 @media (min-width: 960px) {
   .post-item {
     flex-basis: 33.333333333%;
+    padding-right: 0;
   }
 }
 
 .col-lg-3 {
   @media (min-width: 1200px) {
     width: 33% !important;
+    padding-right: 0px !important;
   }
 }
