@@ -39,9 +39,12 @@ document.addEventListener('DOMContentLoaded', function() {
   const servicesSubtitleTextFive = document.getElementById('servicesSubtitleText-5');
   const servicesSubtitleTextSix = document.getElementById('servicesSubtitleText-6');
 
-  // Используйте querySelector для получения мета-тегов
-  const metaDesc = document.querySelector("meta[name='description']");
-  const metaKey = document.querySelector("meta[name='keywords']");
+  const servicesMoreButtonFirst = document.getElementById('more-1');
+  const servicesMoreButtonSecond = document.getElementById('more-2');
+  const servicesMoreButtonThird = document.getElementById('more-3');
+  const servicesMoreButtonFour = document.getElementById('more-4');
+  const servicesMoreButtonFive = document.getElementById('more-5');
+  const servicesMoreButtonSix = document.getElementById('more-6');
 
   // Функция загрузки переводов
   function loadTranslation(userLanguage) {
@@ -87,16 +90,15 @@ document.addEventListener('DOMContentLoaded', function() {
         servicesSubtitleTextFour.textContent = data.servicesSubtitleTextFour;
         servicesSubtitleTextFive.textContent = data.servicesSubtitleTextFive;
         servicesSubtitleTextSix.textContent = data.servicesSubtitleTextSix;
-        
-        // Измените содержимое мета-тегов
-        // if (data.metaDesc) {
-        //   metaDesc.setAttribute("content", data.metaDesc);
-        // }
-        // if (data.metaKey) {
-        //   metaKey.setAttribute("content", data.metaKey);
-        // }
-      })
 
+        servicesMoreButtonFirst.textContent = data.servicesMoreButtonFirst;
+        servicesMoreButtonSecond.textContent = data.servicesMoreButtonSecond;
+        servicesMoreButtonThird.textContent = data.servicesMoreButtonThird;
+        servicesMoreButtonFour.textContent = data.servicesMoreButtonFour;
+        servicesMoreButtonFive.textContent = data.servicesMoreButtonFive;
+        servicesMoreButtonSix.textContent = data.servicesMoreButtonSix;
+        
+      })
       .catch(error => {
         console.error('Ошибка при загрузке перевода:', error);
       });

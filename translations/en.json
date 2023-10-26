@@ -45,5 +45,12 @@
 
     "servicesSubtitleTextFive":"Healing is done using several methods. If you have a dense or particularly colorful tattoo, we recommend the classic method with wraps, ointments, or creams. For tattoos with graphic elements and less traumatic ones, we use a healing film that needs to be worn for 4-5 days.",
 
-    "servicesSubtitleTextSix":"The artist-tattooist creates oil paintings that will preserve their contrast, richness, and unique brushstrokes for centuries. Optionally, they can be covered with damar varnish, but this process typically occurs 3-6 months after the creation of the artwork. Unlike canvas prints, oil provides depth to the pieces. This makes it a wonderful gift for both yourself and someone you want to delight. Prices start at $250, and the creation period ranges from 2 to 4 weeks, depending on the size and the studio's workload."
+    "servicesSubtitleTextSix":"The artist-tattooist creates oil paintings that will preserve their contrast, richness, and unique brushstrokes for centuries. Optionally, they can be covered with damar varnish, but this process typically occurs 3-6 months after the creation of the artwork. Unlike canvas prints, oil provides depth to the pieces. This makes it a wonderful gift for both yourself and someone you want to delight. Prices start at $250, and the creation period ranges from 2 to 4 weeks, depending on the size and the studio's workload.",
+
+    "servicesMoreButtonFirst": "More details",
+    "servicesMoreButtonSecond": "More details",
+    "servicesMoreButtonThird": "More details",
+    "servicesMoreButtonFour": "More details",
+    "servicesMoreButtonFive": "More details",
+    "servicesMoreButtonSix": "More details"
 }

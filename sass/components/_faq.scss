@@ -6,7 +6,8 @@ $blue: #000;
 
 * {
   box-sizing: border-box;
-  &::before, &::after {
+  &::before,
+  &::after {
     box-sizing: border-box;
   }
 }
@@ -14,33 +15,34 @@ $blue: #000;
 body {
   margin: 0;
   padding: 0;
-//   color: $gray;
+  //   color: $gray;
 }
 
 .container2 {
+  margin: 0 auto;
+  padding: 30px;
+  @media screen and (min-width: 1200px) {
     margin: 0 auto;
-  padding: 2rem;
-    @media screen and (min-width:1200px) {
-        margin: 0 auto;
-  padding: 4rem;
-  width: 60%;
-    }
+    padding: 4rem;
+    max-width: 1200px;
+    width: 100%;
+  }
 }
 
 .container2__title-faq {
-    font-size: 20px;
-    color: #000;
-    text-align: center;
-    @media screen and (min-width:1200px) {
-        font-size: 30px;
-        margin-bottom: 40px;
-    }
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
 }
 
 .accordion {
   .accordion-item {
     border-bottom: 1px solid $lightgray;
-    button[aria-expanded='true'] {
+    button[aria-expanded="true"] {
       border-bottom: 1px solid $blue;
     }
   }
@@ -56,22 +58,24 @@ body {
     border: none;
     background: none;
     outline: none;
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
       cursor: pointer;
-/*       color: $accent-color;
- */      &::after {
+      /*       color: $accent-color;
+ */
+      &::after {
         cursor: pointer;
         color: #fff;
         border: 1px solid #fff;
       }
     }
     .accordion-title {
-        padding: 1em 1.5em 1em 0;
-        font-size: 14px;
-        @media screen and (min-width:1200px) {
       padding: 1em 1.5em 1em 0;
-      font-size: 16px;
-        }
+      font-size: 14px;
+      @media screen and (min-width: 1200px) {
+        padding: 1em 1.5em 1em 0;
+        font-size: 16px;
+      }
     }
     .icon {
       display: inline-block;
@@ -85,7 +89,7 @@ body {
       &::before {
         display: block;
         position: absolute;
-        content: '';
+        content: "";
         top: 9px;
         left: 5px;
         width: 10px;
@@ -95,7 +99,7 @@ body {
       &::after {
         display: block;
         position: absolute;
-        content: '';
+        content: "";
         top: 5px;
         left: 9px;
         width: 2px;
@@ -104,7 +108,7 @@ body {
       }
     }
   }
-  button[aria-expanded='true'] {
+  button[aria-expanded="true"] {
     color: $blue;
     .icon {
       &::after {
@@ -125,15 +129,15 @@ body {
     transition: opacity 200ms linear, max-height 200ms linear;
     will-change: opacity, max-height;
     p {
-        font-size: 1.3rem;
-        font-weight: 500;
+      font-size: 1.3rem;
+      font-weight: 500;
+      margin: 2em 0;
+      @media screen and (min-width: 1200px) {
+        font-size: 1.5rem;
+        font-weight: 400;
         margin: 2em 0;
-        @media screen and (min-width:1200px) {
-            font-size: 1.5rem;
-    font-weight: 400;
-    margin: 2em 0;
-    color: #000; 
-        }
+        color: #000;
+      }
     }
   }
 }

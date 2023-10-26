@@ -1,9 +1,18 @@
 body {
-    font-family: $current-font!important;
-    // color: $first-text-color;
-    background-color: black;
-  }
+  font-family: $current-font !important;
+  // color: $first-text-color;
+  background-color: black;
+}
 
-  a:hover {
-    text-decoration: none!important;
+a:hover {
+  text-decoration: none !important;
+}
+
+.row {
+  margin: 0px !important;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+}

@@ -333,6 +333,17 @@ a:hover {
   text-decoration: none !important;
 }
 
+.row {
+  margin: 0px !important;
+}
+@media screen and (min-width: 1200px) {
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .container {
   min-width: 200px;
   padding: 0px 15px;
@@ -361,6 +372,12 @@ a:hover {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #contacts {
+    max-width: 1160px !important;
   }
 }
 
@@ -1592,13 +1609,14 @@ body {
 
 .container2 {
   margin: 0 auto;
-  padding: 2rem;
+  padding: 30px;
 }
 @media screen and (min-width: 1200px) {
   .container2 {
     margin: 0 auto;
     padding: 4rem;
-    width: 60%;
+    max-width: 1200px;
+    width: 100%;
   }
 }
 
@@ -1636,7 +1654,7 @@ body {
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
   /*       color: $accent-color;
-   */
+  */
 }
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
@@ -2024,7 +2042,7 @@ body {
 }
 
 .post-wrap {
-  max-width: 1120px;
+  max-width: 1155px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -2173,6 +2191,9 @@ body {
 
 .feature__list {
   list-style: none;
+  max-width: 300px;
+  margin: 30px auto;
+  margin-bottom: 0px;
 }
 .feature__list li {
   margin-bottom: 30px;
@@ -2201,13 +2222,16 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding-top: 0px;
+    max-width: 1180px;
+    /* margin: 0px auto; */
+    justify-content: center;
   }
   .feature__list li {
     flex-basis: calc(25% - 30px);
     margin-bottom: 0;
   }
   .feature__list li:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 17px;
   }
 }
 
@@ -2399,6 +2423,7 @@ body {
 .about__img {
   opacity: 0.94;
   border-radius: 4px;
+  max-height: 490px;
 }
 
 .about__item-textList {
