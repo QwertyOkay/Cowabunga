@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -343,6 +344,40 @@ a:hover {
     align-items: center;
     flex-wrap: wrap;
   }
+}
+
+.pagination {
+  display: flex !important;
+  justify-content: center !important;
+  gap: 5px;
+  margin: 35px 0 !important;
+}
+
+.pagination > .btn {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.pagination > .active2 {
+  background-color: #12403c !important;
+}
+
+.active2:focus {
+  background-color: #12403c !important;
+  border-color: #12403c !important;
+  outline: none; /* Убираем обводку */
+  cursor: pointer;
+  fill: #12403c;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
 }
 
 .container {
@@ -1483,7 +1518,7 @@ a:hover {
   position: relative;
   margin-top: 15px;
   overflow: hidden;
-  max-height: 365px;
+  max-height: 350px;
   border-radius: 4px;
 }
 .img-wrapper img {

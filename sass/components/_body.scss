@@ -17,3 +17,42 @@ a:hover {
     flex-wrap: wrap;
   }
 }
+
+.pagination {
+  // display: inline-block;
+  // padding-left: 0;
+  // margin: 20px 0;
+  // border-radius: 4px;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 5px;
+  margin: 35px 0 !important;
+}
+
+.pagination > .btn {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.pagination > .active2 {
+  background-color: #12403c !important;
+}
+
+.active2:focus {
+  background-color: #12403c !important;
+  border-color: #12403c !important;
+  // border: none; /* Убираем границу */
+  outline: none; /* Убираем обводку */
+  cursor: pointer;
+  fill: #12403c;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}
