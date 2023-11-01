@@ -46,6 +46,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const servicesMoreButtonFive = document.getElementById('more-5');
   const servicesMoreButtonSix = document.getElementById('more-6');
 
+  const faqTitle = document.getElementById('faqTitle');
+
   // Функция загрузки переводов
   function loadTranslation(userLanguage) {
     fetch(`translations/${userLanguage}.json?nocache=${Math.random()}`)
@@ -97,6 +99,8 @@ document.addEventListener('DOMContentLoaded', function() {
         servicesMoreButtonFour.textContent = data.servicesMoreButtonFour;
         servicesMoreButtonFive.textContent = data.servicesMoreButtonFive;
         servicesMoreButtonSix.textContent = data.servicesMoreButtonSix;
+
+        faqTitle.textContent = data.faqTitle;
         
       })
       .catch(error => {
