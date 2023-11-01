@@ -48,6 +48,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   const faqTitle = document.getElementById('faqTitle');
 
+  const faqSubtitle = document.getElementById('faqSubtitle-1');
+  const faqSubtitleSecond = document.getElementById('faqSubtitle-2');
+  const faqSubtitleThird = document.getElementById('faqSubtitle-3');
+  const faqSubtitleFour = document.getElementById('faqSubtitle-4');
+  const faqSubtitleFive = document.getElementById('faqSubtitle-5');
+  const faqSubtitleSix = document.getElementById('faqSubtitle-6');
+  const faqSubtitleSeven = document.getElementById('faqSubtitle-7');
+
+
   // Функция загрузки переводов
   function loadTranslation(userLanguage) {
     fetch(`translations/${userLanguage}.json?nocache=${Math.random()}`)
@@ -101,6 +110,15 @@ document.addEventListener('DOMContentLoaded', function() {
         servicesMoreButtonSix.textContent = data.servicesMoreButtonSix;
 
         faqTitle.textContent = data.faqTitle;
+
+        faqSubtitle.textContent = data.faqSubtitle;
+        faqSubtitleSecond.textContent = data.faqSubtitleSecond;
+        faqSubtitleThird.textContent = data.faqSubtitleThird;
+        faqSubtitleFour.textContent = data.faqSubtitleFour;
+        faqSubtitleFive.textContent = data.faqSubtitleFive;
+        faqSubtitleSix.textContent = data.faqSubtitleSix;
+         faqSubtitleSeven.textContent = data.faqSubtitleSeven;
+        
         
       })
       .catch(error => {
