@@ -1,7 +1,6 @@
     $(document).ready(function () {
       var itemsPerPage = 9;
       var $images = $('.image');
-      var $section = $('#gallery');
 
       function showPage(page) {
         $images.hide();
@@ -15,8 +14,7 @@
         // Добавляем класс "active" только к активной кнопке
         $(`.page-button[data-page="${page}"]`).addClass('active2');
 
-        // // Прокручиваем секцию к началу
-        //  window.scrollBy(0, -820);
+      
       }
 
       showPage(1);
