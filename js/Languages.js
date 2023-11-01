@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
         faqSubtitleFour.textContent = data.faqSubtitleFour;
         faqSubtitleFive.textContent = data.faqSubtitleFive;
         faqSubtitleSix.textContent = data.faqSubtitleSix;
-         faqSubtitleSeven.textContent = data.faqSubtitleSeven;
+        faqSubtitleSeven.textContent = data.faqSubtitleSeven;
         
         
       })
