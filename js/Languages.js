@@ -56,6 +56,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const faqSubtitleSix = document.getElementById('faqSubtitle-6');
   const faqSubtitleSeven = document.getElementById('faqSubtitle-7');
 
+  const faqText = document.getElementById('faqText-1');
+  const faqTextSecond = document.getElementById('faqText-2');
+  const faqTextThird = document.getElementById('faqText-3');
+  const faqTextFour = document.getElementById('faqText-4');
+  const faqTextFive = document.getElementById('faqText-5');
+  const faqTextSix = document.getElementById('faqText-6');
+
 
   // Функция загрузки переводов
   function loadTranslation(userLanguage) {
@@ -118,8 +125,13 @@ document.addEventListener('DOMContentLoaded', function() {
         faqSubtitleFive.textContent = data.faqSubtitleFive;
         faqSubtitleSix.textContent = data.faqSubtitleSix;
         faqSubtitleSeven.textContent = data.faqSubtitleSeven;
-        
-        
+
+        faqText.textContent = data.faqText;
+        faqTextSecond.textContent = data.faqTextSecond;
+        faqTextThird.textContent = data.faqTextThird;
+        faqTextFour.textContent = data.faqTextFour;
+        faqTextFive.textContent = data.faqTextFive;
+        faqTextSix.textContent = data.faqTextSix;
       })
       .catch(error => {
         console.error('Ошибка при загрузке перевода:', error);
