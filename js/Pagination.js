@@ -14,7 +14,6 @@
         // Добавляем класс "active" только к активной кнопке
         $(`.page-button[data-page="${page}"]`).addClass('active2');
 
-      
       }
 
       showPage(1);

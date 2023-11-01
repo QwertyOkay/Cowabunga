@@ -34,8 +34,13 @@ a:hover {
   margin-right: 0px;
 }
 
-.pagination > .active2 {
+// .pagination > .active2 {
+//   background-color: #12403c !important;
+// }
+
+.active2 {
   background-color: #12403c !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .active2:focus {
@@ -55,4 +60,8 @@ a:hover {
 .btn:focus {
   outline: none !important;
   outline-offset: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
 }
