@@ -2471,17 +2471,8 @@ body {
 .about__item-textList {
   white-space: nowrap;
   overflow: hidden;
-  animation: fade 9s 6;
 }
 
-@keyframes fade {
-  0%, 100% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 1;
-  }
-}
 .about__item p {
   margin: 0 !important;
   font-weight: 500;
