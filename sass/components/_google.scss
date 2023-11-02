@@ -64,6 +64,13 @@
   transition: 1000ms !important;
 }
 
+.review__button:hover {
+  background-color: rgba(178, 178, 178, 1) !important;
+  color: #12403c !important;
+  transition: 1000ms !important;
+  font-weight: 600;
+}
+
 .googleTitle {
   color: #fff;
   @media only screen and (min-width: 1200px) {

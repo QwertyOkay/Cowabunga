@@ -63,6 +63,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const faqTextFive = document.getElementById('faqText-5');
   const faqTextSix = document.getElementById('faqText-6');
 
+  const reviewTitle = document.getElementById('reviewTitle');
+  const reviewButton = document.getElementById('reviewButton');
+
+  const footerAddress = document.getElementById('footerAddress');
+
 
   // Функция загрузки переводов
   function loadTranslation(userLanguage) {
@@ -132,6 +137,12 @@ document.addEventListener('DOMContentLoaded', function() {
         faqTextFour.textContent = data.faqTextFour;
         faqTextFive.textContent = data.faqTextFive;
         faqTextSix.textContent = data.faqTextSix;
+
+        reviewTitle.textContent = data.reviewTitle;
+        reviewButton.textContent = data.reviewButton;
+
+        footerAddress.textContent = data.footerAddress;
+
       })
       .catch(error => {
         console.error('Ошибка при загрузке перевода:', error);
