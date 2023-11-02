@@ -79,5 +79,12 @@
 
     "footerDev":"Сайт разработан",
     "footerDevSecond":"веб-студией",
-    "footerRights":"Все права защищены"
+    "footerRights":"Все права защищены",
+
+   "mobMenu":"Главная",
+    "mobMenuSecond":"Цены",
+    "mobMenuThird":"Работы",
+    "mobMenuFour":"Контакты",
+    "mobMenuFive":"Заживление",
+    "mobMenuSix":"Оставить отзыв"
 }

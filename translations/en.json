@@ -84,7 +84,14 @@
 
 "footerDev": "This Website Developed By",
 "footerDevSecond": "Web Studio",
-"footerRights":"All rights reserved"
+"footerRights":"All rights reserved",
+
+"mobMenu": "Home",
+"mobMenuSecond": "Prices",
+"mobMenuThird": "Works",
+"mobMenuFour": "Contacts",
+"mobMenuFive": "Tattoo Healing",
+"mobMenuSix": "Leave a Review"
 
 
 }

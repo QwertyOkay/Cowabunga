@@ -64,7 +64,14 @@
 
  "footerDev": "Сайт розроблений",
 "footerDevSecond": "Веб-студією",
-"footerRights":"Всі права захищені"
+"footerRights":"Всі права захищені",
+
+"mobMenu": "Головна",
+"mobMenuSecond": "Ціни",
+"mobMenuThird": "Роботи",
+"mobMenuFour": "Контакти",
+"mobMenuFive": "Заживлення тату",
+"mobMenuSix": "Залишити відгук"
  
 
 }

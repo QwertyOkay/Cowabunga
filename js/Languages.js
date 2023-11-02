@@ -73,6 +73,13 @@ document.addEventListener('DOMContentLoaded', function() {
   const footerDevSecond = document.getElementById('footerDev-2');
   const footerRights = document.getElementById('footerRights');
 
+  const mobMenu = document.getElementById('mobMenu-1');
+  const mobMenuSecond = document.getElementById('mobMenu-2');
+  const mobMenuThird = document.getElementById('mobMenu-3');
+  const mobMenuFour = document.getElementById('mobMenu-4');
+  const mobMenuFive = document.getElementById('mobMenu-5');
+  const mobMenuSix = document.getElementById('mobMenu-6');
+
 
   // Функция загрузки переводов
   function loadTranslation(userLanguage) {
@@ -152,6 +159,13 @@ document.addEventListener('DOMContentLoaded', function() {
         footerDev.textContent = data.footerDev;
         footerDevSecond.textContent = data.footerDevSecond;
         footerRights.textContent = data.footerRights;
+
+        mobMenu.textContent = data.mobMenu;
+        mobMenuSecond.textContent = data.mobMenuSecond;
+        mobMenuThird.textContent = data.mobMenuThird;
+        mobMenuFour.textContent = data.mobMenuFour;
+        mobMenuFive.textContent = data.mobMenuFive;
+        mobMenuSix.textContent = data.mobMenuSix;
 
       })
       .catch(error => {
