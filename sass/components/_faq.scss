@@ -61,8 +61,6 @@ body {
     &:hover,
     &:focus {
       cursor: pointer;
-      /*       color: $accent-color;
- */
       &::after {
         cursor: pointer;
         color: #fff;
@@ -77,9 +75,10 @@ body {
       }
     }
     .icon {
+      top: 12px;
       display: inline-block;
       position: absolute;
-      top: 18px;
+
       right: 0;
       width: 22px;
       height: 22px;
@@ -105,8 +104,12 @@ body {
         height: 10px;
         background: currentColor;
       }
+      @media screen and (min-width: 1200px) {
+        top: 15px;
+      }
     }
   }
+
   button[aria-expanded="true"] {
     color: $blue;
     .icon {

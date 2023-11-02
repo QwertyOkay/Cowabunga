@@ -1695,8 +1695,6 @@ body {
 }
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  /*       color: $accent-color;
-  */
 }
 .accordion button:hover::after, .accordion button:focus::after {
   cursor: pointer;
@@ -1713,9 +1711,9 @@ body {
   }
 }
 .accordion button .icon {
+  top: 12px;
   display: inline-block;
   position: absolute;
-  top: 18px;
   right: 0;
   width: 22px;
   height: 22px;
@@ -1741,6 +1739,11 @@ body {
   width: 2px;
   height: 10px;
   background: currentColor;
+}
+@media screen and (min-width: 1200px) {
+  .accordion button .icon {
+    top: 15px;
+  }
 }
 .accordion button[aria-expanded=true] {
   color: #000;
