@@ -2734,6 +2734,10 @@ body {
   transition: 300ms;
 }
 
+#footerDev-2 {
+  z-index: 99;
+}
+
 .filter__list {
   display: flex;
   flex-wrap: wrap;
