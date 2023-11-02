@@ -2713,6 +2713,12 @@ body {
   text-align: center;
   color: #e5dec2;
   margin-bottom: 5px;
+  gap: 2px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__rights {
+    font-size: 14px;
+  }
 }
 
 .footer__addInfo {

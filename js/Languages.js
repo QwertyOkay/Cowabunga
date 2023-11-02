@@ -67,6 +67,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const reviewButton = document.getElementById('reviewButton');
 
   const footerAddress = document.getElementById('footerAddress');
+  const footerSocialText = document.getElementById('footerSocialText');
+
+  const footerDev = document.getElementById('footerDev-1');
+  const footerDevSecond = document.getElementById('footerDev-2');
+  const footerRights = document.getElementById('footerRights');
 
 
   // Функция загрузки переводов
@@ -142,6 +147,11 @@ document.addEventListener('DOMContentLoaded', function() {
         reviewButton.textContent = data.reviewButton;
 
         footerAddress.textContent = data.footerAddress;
+        footerSocialText.textContent = data.footerSocialText;
+
+        footerDev.textContent = data.footerDev;
+        footerDevSecond.textContent = data.footerDevSecond;
+        footerRights.textContent = data.footerRights;
 
       })
       .catch(error => {

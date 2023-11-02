@@ -79,7 +79,12 @@
 "reviewTitle":"Would you like to leave a review?",
 "reviewButton":"Leave a review",
 
-"footerAddress":"Peremohy Ave, 68/1, Kyiv"
+"footerAddress":"Peremohy Ave, 68/1, Kyiv",
+"footerSocialText":"Contact Us",
+
+"footerDev": "This Website Developed By",
+"footerDevSecond": "Web Studio",
+"footerRights":"All rights reserved"
 
 
 }

@@ -59,6 +59,12 @@
 "reviewTitle":"Бажаєте залишити відгук?",
 "reviewButton":"Залишити відгук?",
 
- "footerAddress":"Київ, пр-т Перемоги, 68/1"
+ "footerAddress":"Київ, пр-т Перемоги, 68/1",
+ "footerSocialText":"Зв'яжіться з нами",
+
+ "footerDev": "Сайт розроблений",
+"footerDevSecond": "Веб-студією",
+"footerRights":"Всі права захищені"
+ 
 
 }
