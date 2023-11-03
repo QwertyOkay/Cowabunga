@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const servicesElement = document.getElementById('Price');
   const contactsElement = document.getElementById('Contacts');
   const healingElement = document.getElementById('Healing');
-  const aboutTitle = document.getElementById('aboutTitle');
+  const aboutTitlePrice = document.getElementById('aboutTitlePrice');
 
   // const aboutListTitleFirst = document.getElementById('aboutList-1');
   // const aboutListTitleSecond = document.getElementById('aboutList-2');
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
         servicesElement.textContent = data.Price;
         contactsElement.textContent = data.Contacts;
         healingElement.textContent = data.Healing;
-        // aboutTitle.textContent = data.aboutTitle;
+        aboutTitlePrice.textContent = data.aboutTitlePrice;
 
         // aboutListTitleFirst.textContent = data.aboutListTitleFirst;
         // aboutListTitleSecond.textContent = data.aboutListTitleSecond;
