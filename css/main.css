@@ -3023,7 +3023,7 @@ h0 {
   align-items: center;
   flex-direction: row;
   gap: 20px;
-  margin-top: 10px;
+  margin-top: 25px;
 }
 
 .yesButton {
@@ -3076,6 +3076,11 @@ h0 {
 .pParams {
   font-size: 14px;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .modal4__pad {

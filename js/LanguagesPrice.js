@@ -29,6 +29,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const sessionPriceItemSecond = document.getElementById('sessionPriceItem-2');
   const sessionPriceItemThird = document.getElementById('sessionPriceItem-3');
 
+  const priceModalFirst = document.getElementById('priceModal-1');
+  const priceModalSecond = document.getElementById('priceModal-2');
+
   // const aboutListTitleFirst = document.getElementById('aboutList-1');
   // const aboutListTitleSecond = document.getElementById('aboutList-2');
   // const aboutListTitleThird = document.getElementById('aboutList-3');
@@ -138,6 +141,9 @@ document.addEventListener('DOMContentLoaded', function() {
         sessionPriceItemFirst.textContent = data.sessionPriceItemFirst;
         sessionPriceItemSecond.textContent = data.sessionPriceItemSecond;
         sessionPriceItemThird.textContent = data.sessionPriceItemThird;
+
+        priceModalFirst.textContent = data.priceModalFirst;
+        priceModalSecond.textContent = data.priceModalSecond;
 
         // aboutListTitleFirst.textContent = data.aboutListTitleFirst;
         // aboutListTitleSecond.textContent = data.aboutListTitleSecond;
