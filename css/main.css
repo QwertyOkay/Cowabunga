@@ -853,8 +853,8 @@ html {
 }
 
 .social__item {
-  width: 44px;
-  height: 44px;
+  width: 34px;
+  height: 34px;
   margin-left: 10px;
 }
 
@@ -872,8 +872,8 @@ html {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
   color: #afb1b8;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1785,6 +1785,12 @@ body {
   font-size: 16px;
 }
 
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
 .scrolltop {
   display: none;
   width: 100%;
@@ -2609,9 +2615,9 @@ body {
     margin-right: 0;
     display: flex;
     padding: 5px;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    gap: 107px;
+    gap: 135px;
   }
 }
 
