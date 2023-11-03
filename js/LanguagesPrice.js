@@ -4,7 +4,30 @@ document.addEventListener('DOMContentLoaded', function() {
   const servicesElement = document.getElementById('Price');
   const contactsElement = document.getElementById('Contacts');
   const healingElement = document.getElementById('Healing');
+
   const aboutTitlePrice = document.getElementById('aboutTitlePrice');
+
+  const consultationPrice = document.getElementById('consultationPrice');
+  const minPrice = document.getElementById('minPrice');
+  const sessionPrice = document.getElementById('sessionPrice');
+
+  const priceFirst = document.getElementById('price-1');
+  const priceSecond = document.getElementById('price-2');
+  const priceThird = document.getElementById('price-3');
+
+  const consultationPriceItemFirst = document.getElementById('consultationPriceItem-1');
+  const consultationPriceItemSecond = document.getElementById('consultationPriceItem-2');
+  const consultationPriceItemThird = document.getElementById('consultationPriceItem-3');
+  const consultationPriceItemFour = document.getElementById('consultationPriceItem-4');
+  const consultationPriceItemFive = document.getElementById('consultationPriceItem-5');
+
+  const minPriceItemFirst = document.getElementById('minPriceItem-1');
+  const minPriceItemSecond = document.getElementById('minPriceItem-2');
+  const minPriceItemThird = document.getElementById('minPriceItem-3');
+
+  const sessionPriceItemFirst = document.getElementById('sessionPriceItem-1');
+  const sessionPriceItemSecond = document.getElementById('sessionPriceItem-2');
+  const sessionPriceItemThird = document.getElementById('sessionPriceItem-3');
 
   // const aboutListTitleFirst = document.getElementById('aboutList-1');
   // const aboutListTitleSecond = document.getElementById('aboutList-2');
@@ -91,7 +114,30 @@ document.addEventListener('DOMContentLoaded', function() {
         servicesElement.textContent = data.Price;
         contactsElement.textContent = data.Contacts;
         healingElement.textContent = data.Healing;
+
         aboutTitlePrice.textContent = data.aboutTitlePrice;
+
+        consultationPrice.textContent = data.consultationPrice;
+        minPrice.textContent = data.minPrice;
+        sessionPrice.textContent = data.sessionPrice;
+
+        priceFirst.textContent = data.priceFirst;
+        priceSecond.textContent = data.priceSecond;
+        priceThird.textContent = data.priceThird;
+
+        consultationPriceItemFirst.textContent = data.consultationPriceItemFirst;
+        consultationPriceItemSecond.textContent = data.consultationPriceItemSecond;
+        consultationPriceItemThird.textContent = data.consultationPriceItemThird;
+        consultationPriceItemFour.textContent = data.consultationPriceItemFour;
+        consultationPriceItemFive.textContent = data.consultationPriceItemFive;
+
+        minPriceItemFirst.textContent = data.minPriceItemFirst;
+        minPriceItemSecond.textContent = data.minPriceItemSecond;
+        minPriceItemThird.textContent = data.minPriceItemThird;
+
+        sessionPriceItemFirst.textContent = data.sessionPriceItemFirst;
+        sessionPriceItemSecond.textContent = data.sessionPriceItemSecond;
+        sessionPriceItemThird.textContent = data.sessionPriceItemThird;
 
         // aboutListTitleFirst.textContent = data.aboutListTitleFirst;
         // aboutListTitleSecond.textContent = data.aboutListTitleSecond;

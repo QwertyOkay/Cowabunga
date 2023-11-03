@@ -6,13 +6,40 @@
     "Healing": "Healing",
 
     "aboutTitle": "About us",
+
     "aboutTitlePrice": " Price and Services",
+
+    "consultationPrice":"Consultation",
+    "minPrice":"Minimum Price",
+    "sessionPrice":"3-6 hours session",
+
+    "priceFirst":"$15",
+    "priceSecond":"$50",
+    "priceThird":"$120 - $250",
 
     "aboutListTitleFirst": "Conscious Approach",
     "aboutListTitleSecond": "Creating with Love",
     "aboutListTitleThird": "Crafting Unique Sketches",
     "aboutListTitleFour": "Custom Paintings",
     "aboutListTitleFive": "9 years of tattoo industry experience",
+
+    "consultationPriceItemFirst": "Payment of the consultation fee (in the amount of $15) is considered a deposit for a future session, no later than 3 weeks.",
+
+"consultationPriceItemSecond": "*In case of tattoo application session scheduled later than 3 weeks from the date of the consultation, the deposit of $15 is forfeited.",
+
+"consultationPriceItemThird": "If the consultation lasts more than 60 minutes, an additional fee of $15 applies, which is not included in the cost of the future tattoo and is payment for the tattoo artist's time.",
+
+"consultationPriceItemFour": "This rule applies to all tattoo artists in our studio.",
+
+"consultationPriceItemFive": "Creating a sketch from $10. (depends on the complexity of the design).",
+
+"minPriceItemFirst":"The cost of the tattoo depends on the amount of consumables required and the complexity.",
+"minPriceItemSecond":"*Healing film is not included in the session cost.",
+"minPriceItemThird":"The cost of the film - from $5.",
+
+"sessionPriceItemFirst":"The price listed is applicable when the tattoo is done in one session.",
+    "sessionPriceItemSecond":"If the tattoo application is done over multiple sessions, discounts are provided in such cases",
+    "sessionPriceItemThird":"The tattoo application process significantly depends on the body's location, the design's complexity, and the client's pain sensitivity.",
 
     "metaDesc":"Welcome to Cowabunga TATTOO, the leading tattoo studio in Kyiv specializing in realism. Our experienced artists craft unique and expressive tattoos that come to life on your skin.",
     "metaKey":"Tattoo, Tattoo Studio, Kyiv, Realism, Tattoo, Art, Tattoo Artist",

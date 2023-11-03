@@ -761,6 +761,25 @@ html {
   text-align: start;
 }
 
+.priceH1 {
+  min-height: 60px;
+  font-size: 20px !important;
+  padding: 10px;
+}
+
+h0 {
+  font-size: 60px;
+  line-height: initial;
+}
+
+#aboutTitlePrice {
+  font-size: 28px;
+}
+
+.addMargin {
+  margin-top: 25px;
+}
+
 .heading__clients {
   margin: 0 0 50px 0;
   color: #212121;
@@ -2891,8 +2910,13 @@ h0 {
   padding: 30px 0px;
   border: 3px solid white;
   width: 29%;
-  min-height: 680px;
+  min-height: auto;
   text-align: center;
+}
+@media only screen and (min-width: 1200px) {
+  .social {
+    min-height: 705px;
+  }
 }
 .social h2 {
   text-transform: uppercase;
