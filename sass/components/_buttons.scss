@@ -209,3 +209,23 @@
     display: none;
   }
 }
+
+.custom {
+  background-color: #e5dec2;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  cursor: default;
+  border: 0;
+  padding: 0;
+  // background-color: #12403c !important;
+  // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #efefef;
+  display: flex !important;
+  justify-content: center;
+  align-items: center !important;
+}
