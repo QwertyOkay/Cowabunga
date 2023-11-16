@@ -786,7 +786,7 @@ html {
   padding: 10px;
 }
 
-h0 {
+.text h0 {
   font-size: 60px;
   line-height: initial;
 }
@@ -1553,7 +1553,6 @@ h0 {
 
 @media screen and (min-width: 991px) {
   #gallery {
-    padding: 15px 30px 0 30px;
     overflow-y: auto;
   }
 }
@@ -2924,11 +2923,6 @@ h0 {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-@media only screen and (min-width: 1200px) {
-  .content {
-    padding: 0px 100px;
-  }
-}
 
 .social {
   margin: 20px;
@@ -2972,6 +2966,19 @@ h0 {
     width: 500px;
   }
 }
+.price {
+  text-align: center;
+  font-family: "Questrial";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 68px !important;
+  line-height: initial;
+  padding: 0px 15px 0px 15px;
+  letter-spacing: 4px !important;
+}
+
 .modal9 {
   position: absolute;
   top: 50%;
