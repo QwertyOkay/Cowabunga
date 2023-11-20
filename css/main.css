@@ -321,6 +321,11 @@ img {
   height: auto;
 }
 
+video {
+  height: 700px;
+  width: 400px;
+}
+
 body {
   font-family: Nunito, sans-serif;
 }
@@ -1672,6 +1677,10 @@ html {
 
 .fa {
   color: #e5dec2 !important;
+}
+
+.addHeight {
+  max-height: 600px;
 }
 
 * {
