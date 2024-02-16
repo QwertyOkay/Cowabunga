@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/paintings/static/css/main.2a2b084f.css",
-    "main.js": "/paintings/static/js/main.89915efa.js",
+    "main.js": "/paintings/static/js/main.fe7b254f.js",
     "static/css/728.5c18ded4.chunk.css": "/paintings/static/css/728.5c18ded4.chunk.css",
-    "static/js/728.1719ccb7.chunk.js": "/paintings/static/js/728.1719ccb7.chunk.js",
+    "static/js/728.ca92570e.chunk.js": "/paintings/static/js/728.ca92570e.chunk.js",
     "static/media/updown.svg": "/paintings/static/media/updown.a84b9ff560cd0347dae2.svg",
     "static/media/Already.svg": "/paintings/static/media/Already.885caf00eded5b296148177716544b19.svg",
     "static/media/Notyet.svg": "/paintings/static/media/Notyet.04cac2fd0f50f0cf0734990d06306851.svg",
@@ -11,12 +11,12 @@
     "static/media/down.svg": "/paintings/static/media/down.11552590723c0c985946.svg",
     "static/media/up.svg": "/paintings/static/media/up.ffd90dd644f1e327d1e7.svg",
     "main.2a2b084f.css.map": "/paintings/static/css/main.2a2b084f.css.map",
-    "main.89915efa.js.map": "/paintings/static/js/main.89915efa.js.map",
+    "main.fe7b254f.js.map": "/paintings/static/js/main.fe7b254f.js.map",
     "728.5c18ded4.chunk.css.map": "/paintings/static/css/728.5c18ded4.chunk.css.map",
-    "728.1719ccb7.chunk.js.map": "/paintings/static/js/728.1719ccb7.chunk.js.map"
+    "728.ca92570e.chunk.js.map": "/paintings/static/js/728.ca92570e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a2b084f.css",
-    "static/js/main.89915efa.js"
+    "static/js/main.fe7b254f.js"
   ]
 }
