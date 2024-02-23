@@ -86,36 +86,38 @@
     </div>
   </div>
 
-    <header class="header">
+  <header class="header">
     <div class="header__container container">
-      <a class="logo logo--header" href="/" lang="en">
-        <img src="images/Logo.webp" alt="HeaderLogo" style="width: 210px;
-           height: 75px;"></a>
-      <button type="button" class="button__open-menu" data-menu-open aria-label="mob-menu">
+      <button type="button" class="button__open-menu" data-menu-open>
         <svg class="icon icon__mob-menu">
           <use href="images/icons.svg#icon-menu"></use>
         </svg>
       </button>
-
+      <a class="logo logo--header" href="/" lang="en">
+        <img src="images/Logo.webp" alt="HeaderLogo" style="height: 63px;"></a>
+      
       <nav class="navigation">
 
         <ul class="navigation__list">
-          <li><a class="navigation__link" href="/" id="Studio">Студия</a></li>
-          <li><a class="navigation__link navigation__link--current" href="/price" id="Price">Цены</a></li>
-          <li><a class="navigation__link" href="./#contacts" id="Contacts">Контакты</a></li>
-          <li><a class="navigation__link" href="./#FAQ" id="Healing">Заживление</a></li>
+          <li><a class="navigation__link navigation__link--current" href="/" id="Studio">Студия</a></li>
+          <li><a class="navigation__link navigation__paintings--current" href="/paintings/" id="headerPaintings">Картины</a></li>
+          <li><a class="navigation__link" href="/price" id="Price">Цены</a></li>
+          <li><a class="navigation__link" href="#contacts" id="Contacts">Контакты</a></li>
+          <li><a class="navigation__link" href="#FAQ" id="Healing">Заживление</a></li>
         </ul>
       </nav>
 
       <ul class="contacts__list lists">
         <li class="contacts__item">
           <a class="contacts__link contacts__link-tel" href="tel:+380930305383">
-            <img class="contacts__icon icon icon__tel" width="16" height="16" src="./images/socials/phone.png" alt="phone">+38 093 030 53 83</a>
+            <img class="contacts__icon icon icon__tel" width="16" height="16" src="./images/socials/phone.png"
+              alt="phone">+38 093 030 53 83</a>
         </li>
 
         <li class="contacts__item">
           <a class="contacts__link contacts__link-tel" href="tel:+380954218439">
-            <img class="contacts__icon icon icon__tel" width="16" height="16" src="./images/socials/phone.png" alt="phone">+38 095 421 84 39</a>
+            <img class="contacts__icon icon icon__tel" width="16" height="16" src="./images/socials/phone.png"
+              alt="phone">+38 095 421 84 39</a>
         </li>
       </ul>
     </div>
@@ -170,15 +172,15 @@
     </div>
 
 
-   <footer class="footer">
+  <footer class="footer">
     <div class="footer__container container">
       <div class="footer-tablet">
+        <a class="logo logo--footer" href="/" lang="en"><span class="logo logo--accent">COWABUNGA TATTOO</span></a>
+        <div class="footer__infoHolder">
         <div class="footer__content">
-          <a class="logo logo--footer" href="/" lang="en"><span class="logo logo--accent">COWABUNGA TATTOO</span></a>
-
           <address class="footer-address">
             <a class="footer__address" href="https://goo.gl/maps/k91zt2DU9KAKNsNj6" target="_blank"
-              rel="noopener, nofollow, noreferrer"><span id="footerAddress">Киев, пр-т Победы, 68/1</span></a>
+              rel="noopener, nofollow, noreferrer"><span id="footerAddress">Киев, пр-т Берестейский, 68/1</span></a>
 
             <ul class="lists">
               <!--  <li class="footer__item">
@@ -190,10 +192,8 @@
               </li>
             </ul>
           </address>
-        </div>
-
-        <div class="footer__thumb--social">
-          <p class="footer__text" id="footerSocialText">Связаться с нами</p>
+          <div class="footer__thumb--social">
+          <!-- <p class="footer__text" id="footerSocialText">Связаться с нами</p> -->
           <ul class="lists social__list">
             <li class="social__item">
               <a href="https://www.instagram.com/cowabunga_tattoo/" target="_blank"
@@ -235,34 +235,39 @@
             </li>
           </ul>
         </div>
+        </div>
+
+        </div>
 
       </div>
     </div>
 
+    <div class="footer__qwertyStudio">
     <p class="footer__rights"><span id="footerDev-1">Сайт разработан</span> <a href="https://instagram.com/qwerty_web_studio">
     <span class="footer__addInfo"> QWERTY </span></a><span id="footerDev-2">веб-студией</span></p>
 
-    <p class="footer__rights"><span id="footerRights">Все права защищены</span> <span>&nbsp;&COPY; 2023</span> </p>
+    <p class="footer__rights"><span id="footerRights">Все права защищены </span> <span id="year"></span> </p>
     <p class="footer__rights"><span>cowabunga-tattoo.com</span></p>
-
+    </div>
 
   </footer>
 
-   <div class="mob-menu is-hidden" data-menu>
+ <div class="mob-menu is-hidden" data-menu>
     <div class="mob-menu-container" data-menu-close>
       <div class="mob-menu-nav">
-        <button type="button" class="mob-menu__close-button">
+        <button type="button" class="mob-menu__close-button" aria-label="mob-menu">
           <svg class="icon icon__menu-close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-       <ul class="mob-menu__list lists">
+        <ul class="mob-menu__list lists">
           <li><a href="/" class="mob-menu__link current-mob" id="mobMenu-1">Главная</a></li>
           <li><a href="/price" class="mob-menu__link current-mob" id="mobMenu-2">Цены</a></li>
-          <li><a href="./#gallery" class="mob-menu__link current-mob" id="mobMenu-3">Работы</a></li>
-          <li><a href="./#contacts" class="mob-menu__link current-mob" id="mobMenu-4">Контакты</a></li>
-          <li><a href="./#FAQ" class="mob-menu__link current-mob" id="mobMenu-5">Заживление</a></li>
-          <li><a href="./#review" class="mob-menu__link current-mob" id="mobMenu-6">Оставить отзыв</a></li>
+          <li><a href="/paintings/" class="mob-menu__link current-mob" id="mobMenu-7">Картины</a></li>
+          <li><a href="/#gallery" class="mob-menu__link current-mob" id="mobMenu-3">Тату</a></li>
+          <li><a href="/#contacts" class="mob-menu__link current-mob" id="mobMenu-4">Контакты</a></li>
+          <li><a href="/#FAQ" class="mob-menu__link current-mob" id="mobMenu-5">Заживление</a></li>
+          <li><a href="/#review" class="mob-menu__link current-mob" id="mobMenu-6">Оставить отзыв</a></li>
         </ul>
       </div>
 
@@ -280,21 +285,27 @@
 
         <ul class="mob-menu-social lists">
           <li class="mob-menu-social__item">
-            <a href="https://www.instagram.com/cowabunga_tattoo/" class="mob-menu-social__link"><img src="/images/socials/Instagram.png" alt="Instagram" class="mob-menu__iconSocials"></a>
+            <a href="https://www.instagram.com/cowabunga_tattoo/" class="mob-menu-social__link"><img
+                src="/images/socials/Instagram.png" alt="Instagram" class="mob-menu__iconSocials"></a>
           </li>
           <li class="mob-menu-social__item">
-            <a href="https://www.facebook.com/timasroman/photos/" class="mob-menu-social__link"><img src="/images/socials/Facebook.png" alt="facebook" class="mob-menu__iconSocials"></a>
+            <a href="https://www.facebook.com/timasroman/photos/" class="mob-menu-social__link"><img
+                src="/images/socials/Facebook.png" alt="facebook" class="mob-menu__iconSocials"></a>
           </li>
           <li class="mob-menu-social__item">
-            <a href="https://t.me/Timoshenko_Roman" class="mob-menu-social__link"><img src="/images/socials/Telegram.png" alt="telegram" class="mob-menu__iconSocials"></a>
+            <a href="https://t.me/Timoshenko_Roman" class="mob-menu-social__link"><img
+                src="/images/socials/Telegram.png" alt="telegram" class="mob-menu__iconSocials"></a>
           </li>
           <li class="mob-menu-social__item">
-            <a href="https://api.whatsapp.com/send?phone=380930305383" class="mob-menu-social__link"><img src="/images/socials/Whatsapp.png" alt="whatsapp" class="mob-menu__iconSocials"></a>
+            <a href="https://api.whatsapp.com/send?phone=380930305383" class="mob-menu-social__link"><img
+                src="/images/socials/Whatsapp.png" alt="whatsapp" class="mob-menu__iconSocials"></a>
           </li>
           <li class="mob-menu-social__item">
-            <a href="viber://add?number=380930305383" class="mob-menu-social__link"><img src="/images/socials/Viber.png" alt="Viber" class="mob-menu__iconSocials"></a>
+            <a href="viber://add?number=380930305383" class="mob-menu-social__link"><img src="/images/socials/Viber.png"
+                alt="Viber" class="mob-menu__iconSocials"></a>
           </li>
         </ul>
+
       </div>
     </div>
   </div>
@@ -326,28 +337,11 @@
         </div>
     </div>
 
-    <script>
-        (() => {
-            const refs = {
-
-                closeModalBtn3: document.querySelector('[data-modal-close9]'),
-                modal9: document.querySelector('[data-modal9]'),
-
-            };
-
-            refs.closeModalBtn3.addEventListener('click', toggleModal9);
-
-
-            function toggleModal9() {
-                refs.modal9.classList.add('is-hidden9');
-            }
-
-        })();
-    </script>
-
-
+    
     <script src="./js/menu.js"></script>
     <script src="./js/LanguagesPrice.js"></script>
+    <script src="./js/year.js"></script>
+    <script src="./js/closeModal"></script>
 
 </body>
 

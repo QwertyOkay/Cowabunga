@@ -1,0 +1,16 @@
+ (() => {
+            const refs = {
+
+                closeModalBtn3: document.querySelector('[data-modal-close9]'),
+                modal9: document.querySelector('[data-modal9]'),
+
+            };
+
+            refs.closeModalBtn3.addEventListener('click', toggleModal9);
+
+
+            function toggleModal9() {
+                refs.modal9.classList.add('is-hidden9');
+            }
+
+        })();
