@@ -1,6 +1,7 @@
 {
     "Consultation": "Записатися на консультацію",
     "Studio": "Студія",
+    "headerPaintings": "Картини",
     "Price": "Ціни",
     "Contacts": "Контакти",
     "Healing": "Загоєння татуювання",
@@ -101,10 +102,11 @@
 
 "mobMenu": "Головна",
 "mobMenuSecond": "Ціни",
-"mobMenuThird": "Роботи",
+"mobMenuThird": "Тату",
 "mobMenuFour": "Контакти",
 "mobMenuFive": "Заживлення тату",
-"mobMenuSix": "Залишити відгук"
+"mobMenuSix": "Залишити відгук",
+"mobMenuSeven":"Картини"
  
 
 }

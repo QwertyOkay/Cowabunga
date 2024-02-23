@@ -7,10 +7,11 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #000;
+  margin-left: 155px;
 
-  // @media screen and (min-width: 1200px) {
-  //   padding: 24px 0 25px 0;
-  // }
+  @media screen and (min-width: 1200px) {
+    margin-left: 0px;
+  }
 }
 
 .logo--footer {

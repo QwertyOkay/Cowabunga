@@ -1,6 +1,7 @@
 {
     "Consultation": "Записаться на консультацию",
     "Studio": "Студия",
+    "headerPaintings": "Картины",
     "Price": "Цены",
     "Contacts": "Контакты",
     "Healing": "Заживление",
@@ -112,12 +113,14 @@
 
     "footerDev":"Сайт разработан",
     "footerDevSecond":"веб-студией",
-    "footerRights":"Все права защищены",
+    "footerRights":"Все права защищены ",
 
    "mobMenu":"Главная",
     "mobMenuSecond":"Цены",
-    "mobMenuThird":"Работы",
+    "mobMenuThird":"Тату",
     "mobMenuFour":"Контакты",
     "mobMenuFive":"Заживление",
-    "mobMenuSix":"Оставить отзыв"
+    "mobMenuSix":"Оставить отзыв",
+    "mobMenuSeven":"Картини"
+    
 }

@@ -1,6 +1,7 @@
 {
     "Consultation": "Making an appointment",
     "Studio": "Studio",
+    "headerPaintings": "Paintings",
     "Price": "Price",
     "Contacts": "Contacts",
     "Healing": "Healing",
@@ -121,10 +122,11 @@
 
 "mobMenu": "Home",
 "mobMenuSecond": "Prices",
-"mobMenuThird": "Works",
+"mobMenuThird": "Tattoos",
 "mobMenuFour": "Contacts",
 "mobMenuFive": "Tattoo Healing",
-"mobMenuSix": "Leave a Review"
+"mobMenuSix": "Leave a Review",
+"mobMenuSeven": "Paintings"
 
 
 }
