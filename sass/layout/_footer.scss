@@ -35,6 +35,16 @@
 
 .footer-address {
   margin-top: 20px;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0px;
+  }
+}
+
+address {
+  @media screen and (min-width: 1200px) {
+    margin: 0px !important;
+  }
 }
 
 // .footer__thumb--social {
@@ -138,13 +148,22 @@
 
   @media screen and (min-width: 768px) {
     display: flex;
-    justify-content: space-around;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   @media screen and (min-width: 1200px) {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0px;
+  }
+}
+
+.footer__qwertyStudio {
+  @media screen and (min-width: 1200px) {
+    margin-top: 25px;
+    margin-top: 10px;
   }
 }
 
@@ -179,6 +198,17 @@
 
 #footerDev-2 {
   z-index: 99;
+}
+
+.footer__infoHolder {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
 }
 
 // <div class="subscribe">

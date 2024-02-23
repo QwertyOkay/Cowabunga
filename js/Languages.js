@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function() {
         reviewButton.textContent = data.reviewButton;
 
         footerAddress.textContent = data.footerAddress;
-        footerSocialText.textContent = data.footerSocialText;
+        // footerSocialText.textContent = data.footerSocialText;
 
         footerDev.textContent = data.footerDev;
         footerDevSecond.textContent = data.footerDevSecond;
