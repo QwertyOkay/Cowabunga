@@ -24,6 +24,8 @@ $accent-color2: #57554e;
   height: 100vh;
   padding: 48px 40px;
 
+  background-image: url(../images/hero2-bg-note-1x.jpg);
+
   transform: translateY(0);
   transition-property: transform;
   transition-duration: $duration;
