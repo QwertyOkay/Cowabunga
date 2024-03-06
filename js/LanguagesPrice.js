@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const healingElement = document.getElementById('Healing');
 
   const aboutTitlePrice = document.getElementById('aboutTitlePrice');
+  const headerPaintings = document.getElementById('headerPaintings');
+  
 
   const consultationPrice = document.getElementById('consultationPrice');
   const minPrice = document.getElementById('minPrice');
@@ -105,6 +107,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const mobMenuFour = document.getElementById('mobMenu-4');
   const mobMenuFive = document.getElementById('mobMenu-5');
   const mobMenuSix = document.getElementById('mobMenu-6');
+  const mobMenuSeven = document.getElementById('mobMenu-7');
 
 
   // Функция загрузки переводов
@@ -119,6 +122,7 @@ document.addEventListener('DOMContentLoaded', function() {
         healingElement.textContent = data.Healing;
 
         aboutTitlePrice.textContent = data.aboutTitlePrice;
+        headerPaintings.textContent = data.headerPaintings;
 
         consultationPrice.textContent = data.consultationPrice;
         minPrice.textContent = data.minPrice;
@@ -218,6 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
         mobMenuFour.textContent = data.mobMenuFour;
         mobMenuFive.textContent = data.mobMenuFive;
         mobMenuSix.textContent = data.mobMenuSix;
+        mobMenuSeven.textContent = data.mobMenuSeven;
 
       })
       .catch(error => {
