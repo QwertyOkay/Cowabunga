@@ -1144,7 +1144,7 @@ html {
   letter-spacing: 0.02em;
 }
 .mob-menu__list li {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 @media screen and (min-width: 480px) {
   .mob-menu__list {
