@@ -1128,7 +1128,7 @@ html {
 .mob-menu-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 100vh;
   padding: 48px 40px;
   background-image: url(../images/hero2-bg-note-1x.jpg);
@@ -1206,11 +1206,11 @@ html {
 }
 
 .mob-menu-contacts__item {
-  margin-bottom: 32px;
+  margin-bottom: 16px;
   text-align: center;
 }
 .mob-menu-contacts__item:last-child {
-  margin-bottom: 64px;
+  margin-bottom: 16px;
 }
 
 .mob-menu-contacts__mail {
@@ -1230,6 +1230,7 @@ html {
 }
 
 .mob-menu-social {
+  gap: 16px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -1237,16 +1238,16 @@ html {
   font-size: 20px;
   margin-bottom: 10px;
   justify-content: center;
-}
-.mob-menu-social li {
-  padding-right: 10px;
+  flex-wrap: wrap;
+  width: 240px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  justify-content: center;
 }
 .mob-menu-social li:last-child {
   border-right: 0;
   padding-right: 0;
-}
-.mob-menu-social li:not(:first-child) {
-  margin-left: 10px;
 }
 @media screen and (min-width: 480px) {
   .mob-menu-social {
@@ -1260,8 +1261,8 @@ html {
 }
 
 .mob-menu__iconSocials {
-  width: 35px;
-  height: 35px;
+  width: 25px;
+  height: 25px;
 }
 
 .modal__backdrop {
