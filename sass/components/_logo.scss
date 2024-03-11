@@ -12,6 +12,14 @@
   @media screen and (min-width: 1200px) {
     margin-left: 0px;
   }
+
+  img {
+    height: 63px;
+    padding: 10px;
+    @media screen and (min-width: 1200px) {
+      padding: 5px;
+    }
+  }
 }
 
 .logo--footer {

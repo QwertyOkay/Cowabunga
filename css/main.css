@@ -534,6 +534,15 @@ html {
     margin-left: 0px;
   }
 }
+.logo--header img {
+  height: 63px;
+  padding: 10px;
+}
+@media screen and (min-width: 1200px) {
+  .logo--header img {
+    padding: 5px;
+  }
+}
 
 .logo--footer {
   font-family: Raleway, sans-serif;
