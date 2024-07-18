@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const healingElement = document.getElementById('Healing');
 
   const aboutTitlePrice = document.getElementById('aboutTitlePrice');
+  const aboutTitlePrice2 = document.getElementById('aboutTitlePrice2');
   const headerPaintings = document.getElementById('headerPaintings');
   
 
@@ -27,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const minPriceItemSecond = document.getElementById('minPriceItem-2');
   const minPriceItemThird = document.getElementById('minPriceItem-3');
 
-  const sessionPriceItemFirst = document.getElementById('sessionPriceItem-1');
-  const sessionPriceItemSecond = document.getElementById('sessionPriceItem-2');
+  // const sessionPriceItemFirst = document.getElementById('sessionPriceItem-1');
+  // const sessionPriceItemSecond = document.getElementById('sessionPriceItem-2');
   const sessionPriceItemThird = document.getElementById('sessionPriceItem-3');
 
   const priceModalFirst = document.getElementById('priceModal-1');
@@ -122,6 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
         healingElement.textContent = data.Healing;
 
         aboutTitlePrice.textContent = data.aboutTitlePrice;
+        aboutTitlePrice2.textContent = data.aboutTitlePrice2;
         headerPaintings.textContent = data.headerPaintings;
 
         consultationPrice.textContent = data.consultationPrice;
@@ -142,8 +144,8 @@ document.addEventListener('DOMContentLoaded', function() {
         minPriceItemSecond.textContent = data.minPriceItemSecond;
         minPriceItemThird.textContent = data.minPriceItemThird;
 
-        sessionPriceItemFirst.textContent = data.sessionPriceItemFirst;
-        sessionPriceItemSecond.textContent = data.sessionPriceItemSecond;
+        // sessionPriceItemFirst.textContent = data.sessionPriceItemFirst;
+        // sessionPriceItemSecond.textContent = data.sessionPriceItemSecond;
         sessionPriceItemThird.textContent = data.sessionPriceItemThird;
 
         priceModalFirst.textContent = data.priceModalFirst;
