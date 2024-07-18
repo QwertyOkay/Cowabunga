@@ -3073,6 +3073,13 @@ h0 {
   letter-spacing: 4px !important;
 }
 
+.priceCrypto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
 .modal9 {
   position: absolute;
   top: 50%;
