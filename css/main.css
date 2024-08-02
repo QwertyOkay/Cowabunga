@@ -2125,6 +2125,7 @@ body {
 @media screen and (min-width: 768px) {
   .hero {
     width: 100%;
+    max-height: 85vh;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg-tab-1x.jpg);
   }
 }
@@ -2158,16 +2159,25 @@ body {
   font-family: Nunito, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 50px;
   line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #fff8dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  text-shadow: 9px -9px 3px rgba(0, 0, 0, 0.2117647059);
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
-    font-size: 44px;
+    font-size: 99px;
     line-height: 1.36;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
   }
 }
 
