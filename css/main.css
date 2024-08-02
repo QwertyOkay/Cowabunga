@@ -579,6 +579,7 @@ html {
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
+  color: #13403c;
 }
 .btn:hover, .btn:focus {
   background-color: #e5dec2;
@@ -2167,7 +2168,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
-    font-size: 99px;
+    font-size: 63px;
     line-height: 1.36;
     display: flex;
     justify-content: center;

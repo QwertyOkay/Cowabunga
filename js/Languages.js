@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
   const healingElement = document.getElementById('Healing');
   const aboutTitle = document.getElementById('aboutTitle');
   const headerPaintings = document.getElementById('headerPaintings');
+  const tatooBtn = document.getElementById('tatooBtn');
+  const paintingsBtn = document.getElementById('paintingsBtn');
+  
 
   const aboutListTitleFirst = document.getElementById('aboutList-1');
   const aboutListTitleSecond = document.getElementById('aboutList-2');
@@ -95,6 +98,8 @@ document.addEventListener('DOMContentLoaded', function() {
         healingElement.textContent = data.Healing;
         aboutTitle.textContent = data.aboutTitle;
         headerPaintings.textContent = data.headerPaintings;
+        tatooBtn.textContent = data.tatooBtn;
+        paintingsBtn.textContent = data.paintingsBtn; 
 
         aboutListTitleFirst.textContent = data.aboutListTitleFirst;
         aboutListTitleSecond.textContent = data.aboutListTitleSecond;

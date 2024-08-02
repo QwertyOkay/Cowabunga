@@ -11,6 +11,7 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
+  color: #13403c;
 
   &:hover,
   &:focus {
