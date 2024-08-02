@@ -2117,11 +2117,6 @@ body {
   padding: 118px 0;
   background-position: center;
 }
-@media (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.2), rgba(47, 48, 58, 0.35)), url(../images/hero-bg-note-1x.webp);
-  }
-}
 @media screen and (min-width: 768px) {
   .hero {
     width: 100%;
