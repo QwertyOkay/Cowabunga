@@ -300,3 +300,16 @@
     padding-right: 0px !important;
   }
 }
+
+.hero__btnWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 15px;
+  margin-top: 15px;
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
