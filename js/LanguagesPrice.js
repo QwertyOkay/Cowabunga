@@ -92,8 +92,8 @@ document.addEventListener('DOMContentLoaded', function() {
   // const faqTextFive = document.getElementById('faqText-5');
   // const faqTextSix = document.getElementById('faqText-6');
 
-  // const reviewTitle = document.getElementById('reviewTitle');
-  // const reviewButton = document.getElementById('reviewButton');
+  const reviewTitle2 = document.getElementById('reviewTitle2');
+  const reviewButton2 = document.getElementById('reviewButton2');
 
   const footerAddress = document.getElementById('footerAddress');
   const footerSocialText = document.getElementById('footerSocialText');
@@ -208,8 +208,8 @@ document.addEventListener('DOMContentLoaded', function() {
         // faqTextFive.textContent = data.faqTextFive;
         // faqTextSix.textContent = data.faqTextSix;
 
-        // reviewTitle.textContent = data.reviewTitle;
-        // reviewButton.textContent = data.reviewButton;
+        reviewTitle2.textContent = data.reviewTitle2;
+        reviewButton2.textContent = data.reviewButton2;
 
         footerAddress.textContent = data.footerAddress;
         // footerSocialText.textContent = data.footerSocialText;
