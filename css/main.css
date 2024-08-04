@@ -572,14 +572,13 @@ html {
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
-  padding: 10px 30px;
+  padding: 16px 16px !important;
   margin-left: auto;
   margin-right: auto;
   width: auto;
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--duration);
   transition-timing-function: var(--function);
-  color: #13403c;
   border: 1px solid rgba(51, 51, 51, 0.8117647059) !important;
   box-shadow: inset 0px 0px 8px 0px #000 !important;
   border-radius: 4px !important;
@@ -587,6 +586,7 @@ html {
   color: #d1fffb !important;
   color: #fff !important;
   text-shadow: 0 0 20px black !important;
+  font-weight: 700 !important;
 }
 .btn:hover, .btn:focus {
   background-color: #e5dec2;
