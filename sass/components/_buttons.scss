@@ -13,6 +13,13 @@
   transition-timing-function: var(--function);
   color: #13403c;
 
+  border: 1px solid #333333cf !important;
+  box-shadow: inset 0px 0px 8px 0px #000 !important;
+  border-radius: 4px !important;
+  background: #1f8ea08c !important;
+  // color: #dedbd0 !important;
+  color: #d1fffb !important;
+
   &:hover,
   &:focus {
     background-color: $accent-color;
