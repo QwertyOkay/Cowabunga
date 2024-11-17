@@ -590,10 +590,11 @@ html {
 }
 
 .btn-hero {
-  background: #000;
+  background: #57a7b3;
   color: #fff !important;
   text-transform: uppercase;
   min-width: 255px;
+  box-shadow: inset 0px 0px 8px 0px #fff;
 }
 
 .btn-modern:hover,
@@ -955,15 +956,21 @@ html {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social__link:hover, .social__link:focus {
-  color: #ffffff;
-  background-color: #e5dec2;
+  color: #12403c;
 }
 
 .social__link--footer {
-  color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);
+  color: #000;
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social__link--footer:hover {
+  color: #e5dec2;
+}
+
+.addHover:hover {
+  color: #12403c;
 }
 
 .subscribe {
@@ -2785,7 +2792,7 @@ body {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000;
   margin-bottom: 20px;
 }
 @media screen and (min-width: 1200px) {
