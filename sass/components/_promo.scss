@@ -1,0 +1,147 @@
+.promo-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  padding: 20px;
+  color: #fff;
+}
+
+.promo-container {
+  max-width: 800px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.intro {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.highlight {
+  background: #ff4d4d;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.highlight span {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.steps,
+.tips {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #ffcc00;
+}
+
+.promo-ul {
+  list-style: none !important;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.promo-ul2 {
+  list-style: none;
+}
+
+.promo-ul2 li > span {
+  margin-right: 10px;
+}
+
+.promo-li {
+  font-size: 1.1rem;
+}
+
+.promo-li span {
+  margin-right: 10px;
+  color: #ffcc00;
+}
+
+.note,
+.hurry {
+  font-style: italic;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.promo-code {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.promo-code strong {
+  color: #ffcc00;
+  font-size: 1.3rem;
+}
+
+.promo-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.promo-contacts a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.promo-contacts span {
+  margin-right: 10px;
+}
+
+/* Адаптивность */
+// @media (max-width: 768px) {
+//   .promo-container {
+//     padding: 20px;
+//   }
+
+//   h1 {
+//     font-size: 2rem;
+//   }
+
+//   h2 {
+//     font-size: 1.3rem;
+//   }
+
+//   .intro,
+//   .highlight,
+//   .note,
+//   .hurry,
+//   .promo-code,
+//   li {
+//     font-size: 1rem;
+//   }
+// }
+
+// @media (max-width: 480px) {
+//   h1 {
+//     font-size: 1.5rem;
+//   }
+
+//   h2 {
+//     font-size: 1.2rem;
+//   }
+
+//   .promo-container {
+//     padding: 15px;
+//   }
+// }
